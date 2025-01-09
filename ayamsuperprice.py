@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import requests
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -7,25 +8,35 @@ import seaborn as sns
 # Title of the App
 st.title("Negeri Sembilan Population and Price Analysis")
 
+# GitHub file path (replace with your actual raw URL)
+GITHUB_FILE_URL = 'https://raw.githubusercontent.com/username/repository-name/main/Filtered/filtered_population_district.csv'
+
 # File path or dynamic upload
-DEFAULT_FILE_PATH = 'Filtered/filtered_population_district.csv'
 uploaded_file = None
 
 # Sidebar for file selection or upload
 st.sidebar.title("File Options")
-use_default = st.sidebar.checkbox("Use default file path", value=True)
+use_default = st.sidebar.checkbox("Use file from GitHub", value=True)
 
 if use_default:
-    file_path = DEFAULT_FILE_PATH
+    file_url = GITHUB_FILE_URL
 else:
     uploaded_file = st.sidebar.file_uploader("Upload your filtered_population_district.csv file", type="csv")
-    file_path = None
+    file_url = None
 
 # Load the file based on user selection
 try:
-    if use_default and os.path.exists(file_path):
-        df = pd.read_csv(file_path)
-        st.success(f"Data loaded from default path: {file_path}")
+    if use_default:
+        # Fetch the file from GitHub
+        response = requests.get(file_url)
+        if response.status_code == 200:
+            from io import StringIO
+            file_content = StringIO(response.text)
+            df = pd.read_csv(file_content)
+            st.success(f"Data loaded from GitHub: {file_url}")
+        else:
+            st.error(f"Error loading file from GitHub: {response.status_code}")
+            st.stop()
     elif uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
         st.success("Data loaded from uploaded file.")
