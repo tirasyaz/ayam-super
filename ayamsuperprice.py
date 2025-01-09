@@ -9,7 +9,7 @@ import seaborn as sns
 st.title("Negeri Sembilan Population and Price Analysis")
 
 # GitHub file path (replace with your actual raw URL)
-GITHUB_FILE_URL = 'https://raw.githubusercontent.com/username/repository-name/main/Filtered/filtered_population_district.csv'
+GITHUB_FILE_URL = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/filtered_population_district.csv'
 
 # File path or dynamic upload
 uploaded_file = None
