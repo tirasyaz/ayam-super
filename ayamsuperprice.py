@@ -9,7 +9,7 @@ from io import StringIO
 st.title("Negeri Sembilan Population and Price Analysis")
 
 # GitHub raw file URLs
-population_file_url = 'https://raw.githubusercontent.com/tirasyaz/repository-name/main/Filtered/filtered_population_district.csv'
+population_file_url = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_population_district.csv'
 price_file_url = 'https://raw.githubusercontent.com/tirasyaz/repository-name/main/Filtered/filtered_pricecatcher_data.csv'
 
 # Function to load CSV from URL
