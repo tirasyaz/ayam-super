@@ -1,101 +1,93 @@
 import streamlit as st
 import pandas as pd
-import requests
-import os
 import matplotlib.pyplot as plt
 import seaborn as sns
+import requests
+from io import StringIO
 
-# Title of the App
+# Streamlit app title
 st.title("Negeri Sembilan Population and Price Analysis")
 
-# GitHub file path (replace with your actual raw URL)
-GITHUB_FILE_URL = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/filtered_population_district.csv'
+# GitHub raw file URLs
+population_file_url = 'https://raw.githubusercontent.com/tirasyaz/repository-name/main/Filtered/filtered_population_district.csv'
+price_file_url = 'https://raw.githubusercontent.com/tirasyaz/repository-name/main/Filtered/filtered_pricecatcher_data.csv'
 
-# File path or dynamic upload
-uploaded_file = None
-
-# Sidebar for file selection or upload
-st.sidebar.title("File Options")
-use_default = st.sidebar.checkbox("Use file from GitHub", value=True)
-
-if use_default:
-    file_url = GITHUB_FILE_URL
-else:
-    uploaded_file = st.sidebar.file_uploader("Upload your filtered_population_district.csv file", type="csv")
-    file_url = None
-
-# Load the file based on user selection
-try:
-    if use_default:
-        # Fetch the file from GitHub
-        response = requests.get(file_url)
-        if response.status_code == 200:
-            from io import StringIO
-            file_content = StringIO(response.text)
-            df = pd.read_csv(file_content)
-            st.success(f"Data loaded from GitHub: {file_url}")
-        else:
-            st.error(f"Error loading file from GitHub: {response.status_code}")
-            st.stop()
-    elif uploaded_file is not None:
-        df = pd.read_csv(uploaded_file)
-        st.success("Data loaded from uploaded file.")
-    else:
-        st.warning("Please upload a file or provide a valid file path.")
+# Function to load CSV from URL
+def load_data_from_github(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Check if the request was successful
+        data = StringIO(response.text)
+        return pd.read_csv(data)
+    except requests.exceptions.RequestException as e:
+        st.error(f"Error loading data from GitHub: {e}")
         st.stop()
-except Exception as e:
-    st.error(f"Error loading data: {e}")
-    st.stop()
 
-# Display the dataset
-st.subheader("Dataset Preview")
-st.dataframe(df.head())
+# Load datasets from GitHub
+st.header("Data Loading")
+st.write("Loading filtered datasets for analysis...")
 
-# Basic Dataset Summary
-st.subheader("Dataset Summary")
-st.write(df.describe())
+population_data = load_data_from_github(population_file_url)
+price_data = load_data_from_github(price_file_url)
 
-# Visualization 1: Population by District
-if "district" in df.columns and "population" in df.columns:
-    st.subheader("Population by District")
-    district_population = df.groupby('district')['population'].sum().reset_index()
-    district_population = district_population.sort_values(by='population', ascending=False)
+st.success("Data loaded successfully!")
 
-    # Plot
-    plt.figure(figsize=(12, 6))
-    plt.bar(district_population['district'], district_population['population'], color='skyblue')
-    plt.xlabel('District')
-    plt.ylabel('Population')
-    plt.title('Population by District in Negeri Sembilan')
+# Population Analysis
+st.header("Population by District")
+if 'district' in population_data.columns and 'population' in population_data.columns:
+    # Group by district and calculate the total population
+    district_population = (
+        population_data.groupby('district')['population'].sum().reset_index()
+        .sort_values(by='population', ascending=False)
+    )
+
+    # Display data table
+    st.subheader("Population Data Table")
+    st.dataframe(district_population)
+
+    # Plot population data
+    st.subheader("Population Distribution")
+    fig, ax = plt.subplots(figsize=(12, 6))
+    ax.bar(district_population['district'], district_population['population'], color='skyblue')
+    ax.set_xlabel('District')
+    ax.set_ylabel('Population')
+    ax.set_title('Population by District in Negeri Sembilan')
     plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-
-    st.pyplot(plt)
+    st.pyplot(fig)
 else:
-    st.warning("Columns 'district' and 'population' are required for population analysis.")
+    st.warning("Required columns 'district' and 'population' are not present in the population data.")
 
-# Visualization 2: Price Analysis (if price data exists)
-if "price" in df.columns and "district" in df.columns and "item_code" in df.columns:
-    st.subheader("Average Price Analysis by District and Item Code")
-    avg_price_data = df.groupby(['district', 'item_code']).agg(
+# Price Analysis
+st.header("Price Analysis")
+if {'district', 'item_code', 'price', 'premise_type'}.issubset(price_data.columns):
+    # Summary Table: Group by district, item_code, and premise_type
+    st.subheader("Summary Table")
+    summary_table = price_data.groupby(['district', 'item_code', 'premise_type']).agg(
+        count=('price', 'count'),
+        avg_price=('price', 'mean')
+    ).reset_index()
+    st.dataframe(summary_table)
+
+    # Average price by district and item_code
+    avg_price_data = price_data.groupby(['district', 'item_code']).agg(
         avg_price=('price', 'mean')
     ).reset_index()
 
-    # Display summary table
-    summary_table = avg_price_data.pivot(index='district', columns='item_code', values='avg_price')
-    st.write("Summary Table: Average Price by District and Item Code")
-    st.dataframe(summary_table)
-
-    # Visualization
-    plt.figure(figsize=(12, 6))
-    sns.barplot(data=avg_price_data, x='district', y='avg_price', hue='item_code', palette='viridis')
-    plt.title('Average Price by District and Item Code')
-    plt.xlabel('District')
-    plt.ylabel('Average Price')
+    # Bar plot for average price
+    st.subheader("Average Price by District and Item Code")
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.barplot(
+        data=avg_price_data,
+        x='district',
+        y='avg_price',
+        hue='item_code',
+        palette='viridis',
+        ax=ax
+    )
+    ax.set_title('Average Price by District and Item Code')
+    ax.set_xlabel('District')
+    ax.set_ylabel('Average Price')
     plt.xticks(rotation=45)
-    plt.legend(title='Item Code', bbox_to_anchor=(1.05, 1), loc='upper left')
-    plt.tight_layout()
-
-    st.pyplot(plt)
+    st.pyplot(fig)
 else:
-    st.warning("Columns 'price', 'district', and 'item_code' are required for price analysis.")
+    st.warning("Required columns for price analysis are not present in the dataset.")
