@@ -1,144 +1,85 @@
 import streamlit as st
 import pandas as pd
-
-import streamlit as st
-import pandas as pd
-
-# Path to your dataset in Google Drive
-file_path = '/content/drive/My Drive/AyamSuper'
-
-# Load the dataset
-data = pd.read_csv(file_path)
-
-# Title and description
-st.title("AyamSuper Streamlit App")
-st.write("This is a visualization of AyamSuper project.")
-
-# Add some interactive components (e.g., sliders, charts)
-st.write("Data Overview")
-st.dataframe(data.head())
-
-# Add other visualizations as required (e.g., charts, maps)
-
-
-from google.colab import drive
-drive.mount('/content/drive')
-'/content/drive/MyDrive/AyamSuper'
-import os
-import pandas as pd
-
-folder_path = '/content/drive/MyDrive/AyamSuper'  # Update this with your folder path
-
-# Loop through each file in the folder
-for filename in os.listdir(folder_path):
-    if filename.endswith(".csv"):  # Check if the file is a CSV
-        file_path = os.path.join(folder_path, filename)
-        df = pd.read_csv(file_path)
-        print(f"Data from {filename}:")
-        print(df.head())  # Print the first few rows of each file
-
-dataframes = []  # List to store each DataFrame
-
-for filename in os.listdir(folder_path):
-    if filename.endswith(".csv"):
-        file_path = os.path.join(folder_path, filename)
-        df = pd.read_csv(file_path)
-        dataframes.append(df)  # Append each DataFrame to the list
-
-import pandas as pd
-import os
-
-# Load and filter `lookup_premise.csv` for Negeri Sembilan state
-lookup_premise_df = pd.read_csv('/content/drive/MyDrive/AyamSuper/lookup_premise.csv')
-negeri_sembilan_premises = lookup_premise_df[lookup_premise_df['state'] == 'Negeri Sembilan']
-negeri_sembilan_premise_codes = negeri_sembilan_premises['premise_code'].dropna().unique()
-print("Filtered Negeri Sembilan Premises:")
-print(negeri_sembilan_premises.head(), "\n")
-
-# Load and filter `lookup_item.csv` for item_code 2 (AYAM BERSIH - SUPER)
-lookup_item_df = pd.read_csv('/content/drive/MyDrive/AyamSuper/lookup_item.csv')
-ayam_super_items = lookup_item_df[lookup_item_df['item_code'] == 2]
-print("Filtered AYAM BERSIH - SUPER Items:")
-print(ayam_super_items.head(), "\n")
-
-# Initialize an empty list to store filtered data
-filtered_data = []
-
-# Define the path to the folder containing the pricecatcher files
-pricecatcher_folder_path = '/content/drive/MyDrive/AyamSuper'
-
-# Filter each pricecatcher file for item_code 2 and matching premise_code
-for filename in os.listdir(pricecatcher_folder_path):
-    if filename.startswith("pricecatcher_") and filename.endswith(".csv"):
-        pricecatcher_df = pd.read_csv(os.path.join(pricecatcher_folder_path, filename))
-        
-        # Filter for item_code 2 and premise_code in Negeri Sembilan
-        filtered_df = pricecatcher_df[
-            (pricecatcher_df['item_code'] == 2) &
-            (pricecatcher_df['premise_code'].isin(negeri_sembilan_premise_codes))
-        ]
-        
-        # Print the filtered data from the current file
-        print(f"Filtered data from {filename}:")
-        print(filtered_df.head(), "\n")
-        
-        # Append the filtered data
-        filtered_data.append(filtered_df)
-
-# Concatenate all filtered data from each file into a single DataFrame
-final_filtered_data = pd.concat(filtered_data, ignore_index=True)
-
-# Display the first few rows of the final filtered data
-print("Final Concatenated Filtered Data:")
-print(final_filtered_data.head())
-
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
-# Ensure dates are in datetime format for plotting
-final_filtered_data['date'] = pd.to_datetime(final_filtered_data['date'])
+# Streamlit app title
+st.title("Negeri Sembilan Population and Price Analysis")
 
-# Set up the plot style
-sns.set(style="whitegrid")
+# File paths
+folder_path = '/content/drive/MyDrive/AyamSuper/Filtered'
+population_file = os.path.join(folder_path, 'filtered_population_district.csv')
+price_file = os.path.join(folder_path, 'filtered_pricecatcher_data.csv')
 
-# Plot the price trend for each premise_code in Negeri Sembilan
-plt.figure(figsize=(14, 8))
-sns.lineplot(data=final_filtered_data, x='date', y='price', hue='premise_code', marker='o', palette="tab10")
+# Load datasets
+st.header("Data Loading")
+st.write("Loading filtered datasets for analysis...")
 
-# Customize the plot
-plt.title("Price Trend of 'AYAM BERSIH - SUPER' in Negeri Sembilan Premises")
-plt.xlabel("Date")
-plt.ylabel("Price (RM)")
-plt.legend(title="Premise Code", loc='upper right')
-plt.xticks(rotation=45)
-plt.tight_layout()
+try:
+    population_data = pd.read_csv(population_file)
+    price_data = pd.read_csv(price_file)
+    st.success("Data loaded successfully!")
+except FileNotFoundError as e:
+    st.error(f"Error loading data: {e}")
+    st.stop()
 
-# Show the plot
-plt.show()
+# Population Analysis
+st.header("Population by District")
+if 'district' in population_data.columns and 'population' in population_data.columns:
+    # Group by district and calculate the total population
+    district_population = (
+        population_data.groupby('district')['population'].sum().reset_index()
+        .sort_values(by='population', ascending=False)
+    )
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+    # Display data table
+    st.subheader("Population Data Table")
+    st.dataframe(district_population)
 
-# Extract the month and year for grouping
-final_filtered_data['year_month'] = final_filtered_data['date'].dt.to_period('M')
+    # Plot population data
+    st.subheader("Population Distribution")
+    fig, ax = plt.subplots(figsize=(12, 6))
+    ax.bar(district_population['district'], district_population['population'], color='skyblue')
+    ax.set_xlabel('District')
+    ax.set_ylabel('Population')
+    ax.set_title('Population by District in Negeri Sembilan')
+    plt.xticks(rotation=45, ha='right')
+    st.pyplot(fig)
+else:
+    st.warning("Required columns 'district' and 'population' are not present in the population data.")
 
-# Calculate the average price per month
-monthly_avg_price = final_filtered_data.groupby('year_month')['price'].mean().reset_index()
-monthly_avg_price['year_month'] = monthly_avg_price['year_month'].dt.to_timestamp()  # Convert back to datetime
+# Price Analysis
+st.header("Price Analysis")
+if {'district', 'item_code', 'price', 'premise_type'}.issubset(price_data.columns):
+    # Summary Table: Group by district, item_code, and premise_type
+    st.subheader("Summary Table")
+    summary_table = price_data.groupby(['district', 'item_code', 'premise_type']).agg(
+        count=('price', 'count'),
+        avg_price=('price', 'mean')
+    ).reset_index()
+    st.dataframe(summary_table)
 
-# Set up the plot style
-sns.set(style="whitegrid")
+    # Average price by district and item_code
+    avg_price_data = price_data.groupby(['district', 'item_code']).agg(
+        avg_price=('price', 'mean')
+    ).reset_index()
 
-# Plot the average monthly price
-plt.figure(figsize=(12, 6))
-sns.barplot(data=monthly_avg_price, x='year_month', y='price', palette="Blues_d")
-
-# Customize the plot
-plt.title("Average Monthly Price of 'AYAM BERSIH - SUPER'")
-plt.xlabel("Month")
-plt.ylabel("Average Price (RM)")
-plt.xticks(rotation=45)
-plt.tight_layout()
-
-# Show the plot
-plt.show()
+    # Bar plot for average price
+    st.subheader("Average Price by District and Item Code")
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.barplot(
+        data=avg_price_data,
+        x='district',
+        y='avg_price',
+        hue='item_code',
+        palette='viridis',
+        ax=ax
+    )
+    ax.set_title('Average Price by District and Item Code')
+    ax.set_xlabel('District')
+    ax.set_ylabel('Average Price')
+    plt.xticks(rotation=45)
+    st.pyplot(fig)
+else:
+    st.warning("Required columns for price analysis are not present in the dataset.")
