@@ -12,16 +12,6 @@ folder_path = '/content/drive/MyDrive/AyamSuper/Filtered'
 population_file = '/content/drive/MyDrive/AyamSuper/Filtered/filtered_population_district.csv'
 price_file = os.path.join(folder_path, 'filtered_pricecatcher_data.csv')
 
-import os
-print(os.listdir('/content/drive/MyDrive/AyamSuper/Filtered/'))
-try:
-    population_data = pd.read_csv(population_file)
-    st.success("Data loaded successfully!")
-except FileNotFoundError:
-    st.error(f"File not found: {population_file}")
-    st.stop()
-
-
 # Load datasets
 st.header("Data Loading")
 st.write("Loading filtered datasets for analysis...")
