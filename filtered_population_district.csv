@@ -1,0 +1,2794 @@
+state,district,date,sex,age,ethnicity,population
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,overall,48.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,overall,2.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,overall,4.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,overall,5.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,overall,4.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,overall,3.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,overall,2.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,overall,3.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,overall,3.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,overall,3.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,overall,2.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,overall,2.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,overall,2.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,overall,2.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,overall,1.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,overall,1.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,overall,0.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,overall,0.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,overall,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,overall,26.9
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,overall,1.4
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,overall,2.4
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,overall,3.0
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,overall,2.5
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,overall,2.2
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,overall,1.9
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,overall,2.2
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,overall,2.2
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,overall,2.0
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,overall,1.4
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,overall,1.2
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,overall,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,overall,1.3
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,overall,0.9
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,overall,0.7
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,overall,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,overall,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,overall,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,overall,21.8
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,overall,1.5
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,overall,2.3
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,overall,2.4
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,overall,1.9
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,overall,1.5
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,overall,1.0
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,overall,1.3
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,overall,1.5
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,overall,1.4
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,overall,1.1
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,overall,1.0
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,overall,1.0
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,overall,1.4
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,overall,0.9
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,overall,0.8
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,overall,0.4
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,overall,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,overall,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,overall,72.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,overall,4.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,overall,5.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,overall,5.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,overall,5.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,overall,7.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,overall,6.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,overall,7.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,overall,5.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,overall,4.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,overall,3.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,overall,3.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,overall,3.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,overall,3.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,overall,2.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,overall,2.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,overall,1.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,overall,0.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,overall,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,overall,37.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,overall,2.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,overall,3.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,overall,3.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,overall,2.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,overall,3.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,overall,3.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,overall,4.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,overall,3.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,overall,2.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,overall,1.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,overall,1.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,overall,1.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,overall,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,overall,1.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,overall,1.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,overall,0.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,overall,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,overall,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,overall,34.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,overall,2.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,overall,2.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,overall,2.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,overall,2.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,overall,4.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,overall,3.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,overall,2.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,overall,2.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,overall,2.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,overall,1.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,overall,1.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,overall,1.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,overall,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,overall,1.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,overall,1.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,overall,0.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,overall,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,overall,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,overall,135.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,overall,8.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,overall,12.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,overall,11.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,overall,10.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,overall,14.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,overall,11.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,overall,11.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,overall,10.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,overall,8.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,overall,7.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,overall,6.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,overall,5.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,overall,6.7
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,overall,4.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,overall,2.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,overall,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,overall,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,overall,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,overall,71.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,overall,4.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,overall,6.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,overall,6.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,overall,5.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,overall,8.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,overall,6.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,overall,6.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,overall,5.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,overall,5.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,overall,3.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,overall,3.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,overall,2.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,overall,3.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,overall,2.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,overall,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,overall,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,overall,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,overall,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,overall,63.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,overall,4.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,overall,6.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,overall,5.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,overall,4.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,overall,6.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,overall,5.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,overall,5.3
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,overall,5.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,overall,3.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,overall,3.7
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,overall,3.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,overall,2.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,overall,3.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,overall,2.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,overall,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,overall,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,overall,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,overall,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,overall,49.2
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,overall,3.6
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,overall,3.1
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,overall,3.5
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,overall,3.6
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,overall,6.0
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,overall,5.5
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,overall,3.9
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,overall,3.2
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,overall,2.6
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,overall,2.0
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,overall,2.2
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,overall,2.5
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,overall,2.6
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,overall,2.1
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,overall,1.4
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,overall,0.8
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,overall,0.4
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,overall,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,overall,overall,25.3
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,overall,1.8
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,overall,1.8
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,overall,1.9
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,overall,1.9
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,overall,2.8
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,overall,3.0
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,overall,2.4
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,overall,1.7
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,overall,1.3
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,overall,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,overall,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,overall,1.1
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,overall,1.2
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,overall,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,overall,0.6
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,overall,0.3
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,overall,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,85+,overall,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,overall,overall,24.0
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,overall,1.8
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,overall,1.3
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,overall,1.6
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,overall,1.7
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,overall,3.2
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,overall,2.5
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,overall,1.5
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,overall,1.5
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,overall,1.3
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,overall,1.0
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,overall,1.1
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,overall,1.4
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,overall,1.3
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,overall,1.1
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,overall,0.8
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,overall,0.4
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,overall,0.3
+Negeri Sembilan,Rembau,2024-01-01,female,85+,overall,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,overall,712.7
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,overall,42.8
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,overall,59.3
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,overall,64.1
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,overall,50.9
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,overall,64.9
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,overall,60.6
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,overall,66.6
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,overall,64.2
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,overall,56.3
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,overall,42.0
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,overall,33.1
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,overall,27.5
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,overall,31.0
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,overall,19.8
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,overall,15.4
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,overall,8.3
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,overall,4.5
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,overall,1.5
+Negeri Sembilan,Seremban,2024-01-01,male,overall,overall,366.8
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,overall,20.8
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,overall,30.8
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,overall,33.8
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,overall,27.2
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,overall,34.0
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,overall,31.3
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,overall,36.6
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,overall,34.0
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,overall,29.5
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,overall,20.8
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,overall,16.4
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,overall,12.9
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,overall,15.3
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,overall,9.4
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,overall,7.3
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,overall,3.9
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,overall,2.1
+Negeri Sembilan,Seremban,2024-01-01,male,85+,overall,0.7
+Negeri Sembilan,Seremban,2024-01-01,female,overall,overall,345.9
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,overall,22.0
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,overall,28.5
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,overall,30.2
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,overall,23.7
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,overall,30.9
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,overall,29.3
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,overall,30.0
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,overall,30.3
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,overall,26.8
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,overall,21.2
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,overall,16.7
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,overall,14.6
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,overall,15.7
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,overall,10.4
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,overall,8.1
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,overall,4.4
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,overall,2.3
+Negeri Sembilan,Seremban,2024-01-01,female,85+,overall,0.7
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,overall,90.6
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,overall,5.9
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,overall,8.1
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,overall,8.8
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,overall,8.9
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,overall,6.1
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,overall,5.2
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,overall,7.4
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,overall,8.7
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,overall,6.4
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,overall,4.8
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,overall,4.3
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,overall,3.7
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,overall,4.3
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,overall,3.3
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,overall,2.4
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,overall,1.3
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,overall,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,overall,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,overall,overall,48.2
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,overall,2.8
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,overall,4.3
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,overall,4.5
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,overall,4.4
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,overall,3.3
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,overall,3.1
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,overall,4.4
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,overall,5.6
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,overall,3.8
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,overall,2.4
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,overall,2.1
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,overall,1.7
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,overall,2.2
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,overall,1.5
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,overall,1.1
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,overall,0.6
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,overall,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,85+,overall,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,overall,overall,42.5
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,overall,3.1
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,overall,3.8
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,overall,4.3
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,overall,4.5
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,overall,2.7
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,overall,2.1
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,overall,3.0
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,overall,3.2
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,overall,2.7
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,overall,2.4
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,overall,2.2
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,overall,2.1
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,overall,2.2
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,overall,1.8
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,overall,1.2
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,overall,0.7
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,overall,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,85+,overall,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,overall,131.3
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,overall,9.0
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,overall,12.3
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,overall,12.5
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,overall,10.7
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,overall,9.3
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,overall,7.6
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,overall,11.2
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,overall,10.7
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,overall,9.2
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,overall,6.8
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,overall,5.6
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,overall,6.4
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,overall,6.8
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,overall,5.9
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,overall,4.6
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,overall,1.9
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,overall,0.7
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,overall,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,overall,overall,68.0
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,overall,4.4
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,overall,6.2
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,overall,6.3
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,overall,5.6
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,overall,4.8
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,overall,4.2
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,overall,6.4
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,overall,5.9
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,overall,5.0
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,overall,3.6
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,overall,2.9
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,overall,3.0
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,overall,3.1
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,overall,2.7
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,overall,2.3
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,overall,1.1
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,overall,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,85+,overall,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,overall,63.3
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,overall,4.6
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,overall,6.1
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,overall,6.2
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,overall,5.1
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,overall,4.5
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,overall,3.5
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,overall,4.8
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,overall,4.8
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,overall,4.1
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,overall,3.1
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,overall,2.8
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,overall,3.4
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,overall,3.7
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,overall,3.3
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,overall,2.3
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,overall,0.8
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,overall,0.3
+Negeri Sembilan,Jempol,2024-01-01,female,85+,overall,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,bumi_malay,27.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,bumi_malay,2.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,bumi_malay,2.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,bumi_malay,3.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,bumi_malay,2.6
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,bumi_malay,2.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,bumi_malay,1.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,bumi_malay,1.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,bumi_malay,1.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,bumi_malay,1.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,bumi_malay,1.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,bumi_malay,1.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,bumi_malay,1.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,bumi_malay,1.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,bumi_malay,1.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,bumi_malay,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,bumi_malay,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,bumi_malay,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,bumi_malay,14.6
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,bumi_malay,1.6
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,bumi_malay,1.7
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,bumi_malay,1.5
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,bumi_malay,1.2
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,bumi_malay,0.7
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,bumi_malay,0.8
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,bumi_malay,0.8
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,bumi_malay,0.5
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,bumi_malay,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,bumi_malay,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,bumi_malay,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,bumi_malay,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,bumi_malay,13.3
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,bumi_malay,1.3
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,bumi_malay,1.5
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,bumi_malay,1.1
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,bumi_malay,0.8
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,bumi_malay,0.9
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,bumi_malay,0.9
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,bumi_malay,0.8
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,bumi_malay,0.7
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,bumi_malay,1.0
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,bumi_malay,0.6
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,bumi_malay,0.5
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,bumi_malay,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,bumi_malay,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,bumi_malay,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,bumi_malay,54.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,bumi_malay,3.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,bumi_malay,4.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,bumi_malay,4.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,bumi_malay,3.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,bumi_malay,6.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,bumi_malay,4.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,bumi_malay,4.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,bumi_malay,4.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,bumi_malay,3.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,bumi_malay,2.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,bumi_malay,2.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,bumi_malay,2.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,bumi_malay,2.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,bumi_malay,2.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,bumi_malay,1.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,bumi_malay,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,bumi_malay,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,bumi_malay,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,bumi_malay,26.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,bumi_malay,1.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,bumi_malay,2.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,bumi_malay,2.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,bumi_malay,2.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,bumi_malay,2.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,bumi_malay,2.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,bumi_malay,2.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,bumi_malay,2.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,bumi_malay,1.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,bumi_malay,1.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,bumi_malay,1.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,bumi_malay,1.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,bumi_malay,1.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,bumi_malay,1.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,bumi_malay,0.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,bumi_malay,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,bumi_malay,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,bumi_malay,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,bumi_malay,27.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,bumi_malay,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,bumi_malay,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,bumi_malay,2.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,bumi_malay,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,bumi_malay,3.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,bumi_malay,2.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,bumi_malay,2.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,bumi_malay,2.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,bumi_malay,1.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,bumi_malay,1.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,bumi_malay,1.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,bumi_malay,1.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,bumi_malay,1.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,bumi_malay,1.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,bumi_malay,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,bumi_malay,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,bumi_malay,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,bumi_malay,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,bumi_malay,69.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,bumi_malay,5.7
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,bumi_malay,6.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,bumi_malay,6.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,bumi_malay,5.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,bumi_malay,8.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,bumi_malay,5.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,bumi_malay,5.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,bumi_malay,5.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,bumi_malay,4.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,bumi_malay,3.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,bumi_malay,3.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,bumi_malay,2.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,bumi_malay,3.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,bumi_malay,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,bumi_malay,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,bumi_malay,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,bumi_malay,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,bumi_malay,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,bumi_malay,37.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,bumi_malay,2.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,bumi_malay,3.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,bumi_malay,3.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,bumi_malay,3.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,bumi_malay,5.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,bumi_malay,3.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,bumi_malay,2.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,bumi_malay,3.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,bumi_malay,2.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,bumi_malay,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,bumi_malay,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,bumi_malay,1.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,bumi_malay,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,bumi_malay,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,bumi_malay,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,bumi_malay,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,bumi_malay,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,bumi_malay,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,bumi_malay,32.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,bumi_malay,2.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,bumi_malay,2.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,bumi_malay,3.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,bumi_malay,2.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,bumi_malay,3.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,bumi_malay,2.3
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,bumi_malay,2.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,bumi_malay,2.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,bumi_malay,2.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,bumi_malay,1.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,bumi_malay,1.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,bumi_malay,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,bumi_malay,1.3
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,bumi_malay,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,bumi_malay,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,bumi_malay,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,bumi_malay,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,bumi_malay,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,bumi_malay,39.6
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,bumi_malay,3.2
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,bumi_malay,2.6
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,bumi_malay,2.8
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,bumi_malay,3.0
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,bumi_malay,5.3
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,bumi_malay,4.1
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,bumi_malay,2.4
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,bumi_malay,2.4
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,bumi_malay,2.0
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,bumi_malay,1.6
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,bumi_malay,1.8
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,bumi_malay,2.1
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,bumi_malay,2.1
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,bumi_malay,1.7
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,bumi_malay,0.6
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,bumi_malay,0.4
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,bumi_malay,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,overall,bumi_malay,18.9
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,bumi_malay,1.6
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,bumi_malay,1.4
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,bumi_malay,1.5
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,bumi_malay,1.5
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,bumi_malay,2.4
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,bumi_malay,1.9
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,bumi_malay,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,bumi_malay,0.8
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,bumi_malay,0.8
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,bumi_malay,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,bumi_malay,1.0
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,bumi_malay,0.8
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,bumi_malay,0.5
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,bumi_malay,0.3
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,bumi_malay,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,85+,bumi_malay,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,overall,bumi_malay,20.6
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,bumi_malay,1.6
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,bumi_malay,1.3
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,bumi_malay,1.4
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,bumi_malay,2.9
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,bumi_malay,2.2
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,bumi_malay,1.0
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,bumi_malay,0.9
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,bumi_malay,0.9
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,bumi_malay,1.2
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,bumi_malay,1.1
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,bumi_malay,0.9
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,bumi_malay,0.7
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,bumi_malay,0.4
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,bumi_malay,0.2
+Negeri Sembilan,Rembau,2024-01-01,female,85+,bumi_malay,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,bumi_malay,400.4
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,bumi_malay,31.6
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,bumi_malay,37.9
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,bumi_malay,39.0
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,bumi_malay,31.3
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,bumi_malay,34.5
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,bumi_malay,33.8
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,bumi_malay,35.8
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,bumi_malay,34.8
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,bumi_malay,31.3
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,bumi_malay,22.9
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,bumi_malay,17.8
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,bumi_malay,14.2
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,bumi_malay,15.1
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,bumi_malay,9.2
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,bumi_malay,6.3
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,bumi_malay,3.0
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,bumi_malay,1.5
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,bumi_malay,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,overall,bumi_malay,201.4
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,bumi_malay,15.6
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,bumi_malay,20.3
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,bumi_malay,20.6
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,bumi_malay,16.6
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,bumi_malay,16.9
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,bumi_malay,16.2
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,bumi_malay,18.2
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,bumi_malay,17.3
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,bumi_malay,15.8
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,bumi_malay,11.2
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,bumi_malay,8.9
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,bumi_malay,6.7
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,bumi_malay,7.5
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,bumi_malay,4.4
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,bumi_malay,3.0
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,bumi_malay,1.4
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,bumi_malay,0.7
+Negeri Sembilan,Seremban,2024-01-01,male,85+,bumi_malay,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,overall,bumi_malay,199.0
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,bumi_malay,16.0
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,bumi_malay,17.6
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,bumi_malay,18.4
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,bumi_malay,14.7
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,bumi_malay,17.6
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,bumi_malay,17.6
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,bumi_malay,17.6
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,bumi_malay,17.5
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,bumi_malay,15.5
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,bumi_malay,11.7
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,bumi_malay,9.0
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,bumi_malay,7.6
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,bumi_malay,7.6
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,bumi_malay,4.8
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,bumi_malay,3.3
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,bumi_malay,1.6
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,bumi_malay,0.8
+Negeri Sembilan,Seremban,2024-01-01,female,85+,bumi_malay,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,bumi_malay,52.1
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,bumi_malay,4.7
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,bumi_malay,5.2
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,bumi_malay,5.3
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,bumi_malay,4.8
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,bumi_malay,3.4
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,bumi_malay,3.1
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,bumi_malay,3.8
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,bumi_malay,4.3
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,bumi_malay,3.5
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,bumi_malay,2.7
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,bumi_malay,2.3
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,bumi_malay,2.0
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,bumi_malay,2.3
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,bumi_malay,2.0
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,bumi_malay,1.4
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,bumi_malay,0.7
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,bumi_malay,0.3
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,bumi_malay,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,overall,bumi_malay,26.7
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,bumi_malay,2.3
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,bumi_malay,2.8
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,bumi_malay,2.7
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,bumi_malay,2.4
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,bumi_malay,1.8
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,bumi_malay,1.9
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,bumi_malay,2.1
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,bumi_malay,2.2
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,bumi_malay,1.9
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,bumi_malay,1.4
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,bumi_malay,1.1
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,bumi_malay,0.9
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,bumi_malay,1.1
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,bumi_malay,0.9
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,bumi_malay,0.7
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,bumi_malay,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,bumi_malay,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,85+,bumi_malay,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,overall,bumi_malay,25.4
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,bumi_malay,2.4
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,bumi_malay,2.4
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,bumi_malay,2.6
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,bumi_malay,2.4
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,bumi_malay,1.5
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,bumi_malay,1.3
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,bumi_malay,1.8
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,bumi_malay,2.1
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,bumi_malay,1.6
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,bumi_malay,1.4
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,bumi_malay,1.1
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,bumi_malay,1.1
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,bumi_malay,1.2
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,bumi_malay,1.2
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,bumi_malay,0.7
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,bumi_malay,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,bumi_malay,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,85+,bumi_malay,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,bumi_malay,83.9
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,bumi_malay,7.0
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,bumi_malay,8.7
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,bumi_malay,8.3
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,bumi_malay,6.7
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,bumi_malay,5.5
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,bumi_malay,4.3
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,bumi_malay,6.3
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,bumi_malay,6.5
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,bumi_malay,5.7
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,bumi_malay,4.0
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,bumi_malay,3.1
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,bumi_malay,4.0
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,bumi_malay,4.6
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,bumi_malay,4.4
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,bumi_malay,3.3
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,bumi_malay,1.2
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,bumi_malay,0.3
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,bumi_malay,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,bumi_malay,42.2
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,bumi_malay,3.5
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,bumi_malay,4.5
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,bumi_malay,4.3
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,bumi_malay,3.5
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,bumi_malay,2.8
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,bumi_malay,2.2
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,bumi_malay,3.2
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,bumi_malay,3.3
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,bumi_malay,3.0
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,bumi_malay,2.0
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,bumi_malay,1.6
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,bumi_malay,1.8
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,bumi_malay,1.9
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,bumi_malay,2.0
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,bumi_malay,1.6
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,bumi_malay,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,bumi_malay,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,85+,bumi_malay,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,bumi_malay,41.7
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,bumi_malay,3.5
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,bumi_malay,4.2
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,bumi_malay,4.0
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,bumi_malay,3.1
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,bumi_malay,2.7
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,bumi_malay,2.1
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,bumi_malay,3.1
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,bumi_malay,3.2
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,bumi_malay,2.7
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,bumi_malay,1.9
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,bumi_malay,1.5
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,bumi_malay,2.2
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,bumi_malay,2.6
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,bumi_malay,2.5
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,bumi_malay,1.7
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,bumi_malay,0.5
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,bumi_malay,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,85+,bumi_malay,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,bumi_other,3.7
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,bumi_other,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,bumi_other,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,bumi_other,0.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,bumi_other,0.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,bumi_other,1.9
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,bumi_other,1.8
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,bumi_other,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,bumi_other,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,bumi_other,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,bumi_other,1.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,bumi_other,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,bumi_other,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,bumi_other,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,bumi_other,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,bumi_other,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,bumi_other,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,bumi_other,2.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,bumi_other,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,bumi_other,1.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,bumi_other,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,bumi_other,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,bumi_other,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,bumi_other,1.1
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,overall,bumi_other,0.6
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,overall,bumi_other,0.5
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,bumi_other,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,bumi_other,7.9
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,bumi_other,0.7
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,bumi_other,0.7
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,bumi_other,0.7
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,bumi_other,0.7
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,bumi_other,0.8
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,bumi_other,0.9
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,bumi_other,0.7
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,bumi_other,0.6
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,bumi_other,0.6
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,overall,bumi_other,4.0
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,overall,bumi_other,4.0
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,bumi_other,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,bumi_other,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,bumi_other,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,bumi_other,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,bumi_other,2.0
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,bumi_other,0.3
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,overall,bumi_other,1.2
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,bumi_other,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,overall,bumi_other,0.8
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,bumi_other,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,bumi_other,4.2
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,bumi_other,0.3
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,bumi_other,0.6
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,bumi_other,0.5
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,bumi_other,0.4
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,bumi_other,0.4
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,bumi_other,0.3
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,bumi_other,0.4
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,bumi_other,2.1
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,bumi_other,0.3
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,85+,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,bumi_other,2.1
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,bumi_other,0.3
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,bumi_other,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,bumi_other,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,bumi_other,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,85+,bumi_other,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,chinese,10.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,chinese,0.4
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,chinese,0.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,chinese,1.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,chinese,1.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,chinese,0.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,chinese,0.6
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,chinese,0.6
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,chinese,0.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,chinese,5.1
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,chinese,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,chinese,0.8
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,chinese,0.6
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,chinese,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,chinese,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,chinese,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,chinese,5.0
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,chinese,0.5
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,chinese,0.4
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,chinese,0.3
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,chinese,0.2
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,chinese,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,chinese,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,chinese,9.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,chinese,0.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,chinese,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,chinese,0.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,chinese,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,chinese,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,chinese,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,chinese,0.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,chinese,0.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,chinese,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,chinese,5.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,chinese,0.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,chinese,0.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,chinese,0.5
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,chinese,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,chinese,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,chinese,4.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,chinese,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,chinese,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,chinese,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,chinese,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,chinese,31.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,chinese,3.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,chinese,2.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,chinese,2.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,chinese,2.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,chinese,2.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,chinese,2.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,chinese,1.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,chinese,1.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,chinese,1.7
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,chinese,2.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,chinese,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,chinese,2.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,chinese,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,chinese,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,chinese,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,chinese,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,chinese,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,chinese,15.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,chinese,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,chinese,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,chinese,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,chinese,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,chinese,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,chinese,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,chinese,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,chinese,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,chinese,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,chinese,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,chinese,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,chinese,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,chinese,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,chinese,15.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,chinese,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,chinese,2.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,chinese,1.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,chinese,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,chinese,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,chinese,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,chinese,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,chinese,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,chinese,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,chinese,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,chinese,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,chinese,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,chinese,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,chinese,2.2
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,chinese,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,overall,chinese,1.4
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,85+,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,overall,chinese,0.8
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,chinese,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,chinese,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,85+,chinese,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,chinese,153.7
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,chinese,4.6
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,chinese,11.7
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,chinese,14.2
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,chinese,10.9
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,chinese,11.6
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,chinese,8.9
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,chinese,10.9
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,chinese,12.4
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,chinese,12.7
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,chinese,10.5
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,chinese,9.0
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,chinese,7.9
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,chinese,9.7
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,chinese,6.7
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,chinese,5.9
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,chinese,3.5
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,chinese,2.1
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,chinese,0.7
+Negeri Sembilan,Seremban,2024-01-01,male,overall,chinese,77.6
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,chinese,2.1
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,chinese,5.5
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,chinese,7.5
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,chinese,5.9
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,chinese,6.1
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,chinese,4.7
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,chinese,5.6
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,chinese,6.2
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,chinese,6.6
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,chinese,5.2
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,chinese,4.5
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,chinese,3.7
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,chinese,4.7
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,chinese,3.2
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,chinese,2.9
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,chinese,1.7
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,chinese,1.0
+Negeri Sembilan,Seremban,2024-01-01,male,85+,chinese,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,overall,chinese,76.2
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,chinese,2.5
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,chinese,6.1
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,chinese,6.7
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,chinese,5.0
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,chinese,5.4
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,chinese,4.2
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,chinese,5.3
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,chinese,6.2
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,chinese,6.1
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,chinese,5.3
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,chinese,4.5
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,chinese,4.1
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,chinese,5.0
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,chinese,3.5
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,chinese,3.0
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,chinese,1.9
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,chinese,1.1
+Negeri Sembilan,Seremban,2024-01-01,female,85+,chinese,0.4
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,chinese,19.1
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,chinese,1.7
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,chinese,2.0
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,chinese,2.4
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,chinese,1.5
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,chinese,0.8
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,chinese,1.1
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,chinese,1.0
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,chinese,1.0
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,chinese,1.0
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,chinese,1.2
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,chinese,1.1
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,chinese,1.4
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,chinese,0.9
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,chinese,0.4
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,chinese,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,chinese,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,overall,chinese,9.6
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,chinese,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,chinese,0.9
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,chinese,1.0
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,chinese,1.2
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,chinese,0.8
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,chinese,0.4
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,chinese,0.8
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,chinese,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,chinese,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,chinese,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,85+,chinese,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,overall,chinese,9.5
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,chinese,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,chinese,0.8
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,chinese,1.0
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,chinese,1.2
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,chinese,0.7
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,chinese,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,chinese,0.5
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,chinese,0.6
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,chinese,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,chinese,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,chinese,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,chinese,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,85+,chinese,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,chinese,20.9
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,chinese,1.6
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,chinese,2.1
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,chinese,1.9
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,chinese,1.7
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,chinese,1.1
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,chinese,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,chinese,1.6
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,chinese,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,chinese,1.2
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,chinese,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,chinese,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,chinese,1.4
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,chinese,0.9
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,chinese,0.8
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,chinese,0.3
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,chinese,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,chinese,10.3
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,chinese,0.3
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,chinese,1.0
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,chinese,1.0
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,chinese,0.9
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,chinese,0.5
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,chinese,0.8
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,chinese,0.8
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,chinese,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,chinese,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,85+,chinese,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,chinese,10.5
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,chinese,0.8
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,chinese,1.1
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,chinese,1.0
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,chinese,0.9
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,chinese,0.8
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,chinese,0.7
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,chinese,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,chinese,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,chinese,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,chinese,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,85+,chinese,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,indian,1.8
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,indian,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,indian,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,indian,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,indian,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,indian,1.0
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,indian,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,indian,0.8
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,indian,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,indian,3.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,indian,0.4
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,indian,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,indian,1.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,indian,1.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,indian,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,indian,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,indian,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,indian,23.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,indian,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,indian,2.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,indian,2.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,indian,1.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,indian,2.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,indian,1.7
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,indian,2.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,indian,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,indian,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,indian,1.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,indian,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,indian,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,indian,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,indian,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,indian,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,indian,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,indian,11.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,indian,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,indian,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,indian,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,indian,1.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,indian,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,indian,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,indian,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,indian,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,indian,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,indian,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,indian,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,indian,11.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,indian,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,indian,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,indian,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,indian,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,indian,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,indian,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,indian,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,indian,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,indian,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,indian,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,indian,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,indian,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,indian,3.8
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,indian,0.4
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,indian,0.4
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,overall,indian,2.1
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,indian,0.3
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,overall,indian,1.7
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,indian,0.2
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,indian,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,indian,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,indian,103.7
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,indian,5.2
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,indian,7.8
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,indian,9.6
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,indian,7.5
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,indian,8.2
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,indian,7.0
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,indian,9.4
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,indian,9.9
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,indian,8.8
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,indian,6.7
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,indian,5.3
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,indian,4.7
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,indian,5.2
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,indian,3.3
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,indian,2.7
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,indian,1.4
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,indian,0.8
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,indian,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,overall,indian,52.2
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,indian,2.5
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,indian,3.9
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,indian,5.0
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,indian,4.1
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,indian,4.6
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,indian,3.6
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,indian,4.8
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,indian,5.0
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,indian,4.6
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,indian,3.2
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,indian,2.6
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,indian,2.2
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,indian,2.5
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,indian,1.5
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,indian,1.2
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,indian,0.6
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,indian,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,85+,indian,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,overall,indian,51.5
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,indian,2.7
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,indian,4.0
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,indian,4.6
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,indian,3.4
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,indian,3.6
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,indian,3.4
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,indian,4.6
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,indian,4.8
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,indian,4.2
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,indian,3.5
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,indian,2.7
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,indian,2.6
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,indian,2.7
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,indian,1.8
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,indian,1.5
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,indian,0.8
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,indian,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,85+,indian,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,indian,11.6
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,indian,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,indian,0.9
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,indian,1.2
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,indian,1.5
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,indian,1.0
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,indian,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,indian,0.8
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,indian,0.7
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,indian,0.8
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,indian,0.7
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,indian,0.7
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,indian,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,indian,0.6
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,indian,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,indian,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,overall,indian,5.5
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,indian,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,indian,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,indian,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,indian,0.7
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,indian,0.5
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,indian,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,indian,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,indian,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,overall,indian,6.1
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,indian,0.5
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,indian,0.7
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,indian,0.8
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,indian,0.5
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,indian,0.4
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,indian,0.3
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,indian,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,indian,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,indian,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,indian,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,indian,15.6
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,indian,0.8
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,indian,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,indian,1.5
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,indian,1.5
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,indian,1.4
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,indian,1.0
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,indian,1.1
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,indian,1.3
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,indian,1.1
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,indian,0.9
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,indian,0.9
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,indian,0.8
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,indian,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,indian,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,indian,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,indian,7.6
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,indian,0.6
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,indian,0.8
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,indian,0.8
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,indian,0.6
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,indian,0.3
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,indian,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,indian,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,indian,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,indian,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,85+,indian,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,indian,7.9
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,indian,0.8
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,indian,0.7
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,indian,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,indian,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,indian,0.6
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,indian,0.5
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,indian,0.4
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,indian,0.3
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,indian,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,indian,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,indian,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,85+,indian,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,other_citizen,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,other_citizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,other_citizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,other_citizen,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,other_citizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,other_citizen,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,other_citizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,other_citizen,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,other_citizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,other_citizen,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,other_citizen,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,other_citizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,other_citizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,overall,other_citizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,overall,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,other_citizen,3.9
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,other_citizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,other_citizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,other_citizen,0.6
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,other_citizen,0.5
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,other_citizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,overall,other_citizen,2.4
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,other_citizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,other_citizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,other_citizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,other_citizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,overall,other_citizen,1.5
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,other_citizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,other_citizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,other_citizen,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,overall,other_citizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,overall,other_citizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,other_citizen,0.5
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,other_citizen,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,85+,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,other_citizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,other_citizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,85+,other_citizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,overall,other_noncitizen,4.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,0-4,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,5-9,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,10-14,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,15-19,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,20-24,other_noncitizen,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,25-29,other_noncitizen,1.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,30-34,other_noncitizen,0.9
+Negeri Sembilan,Jelebu,2024-01-01,overall,35-39,other_noncitizen,1.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,40-44,other_noncitizen,0.5
+Negeri Sembilan,Jelebu,2024-01-01,overall,45-49,other_noncitizen,0.3
+Negeri Sembilan,Jelebu,2024-01-01,overall,50-54,other_noncitizen,0.2
+Negeri Sembilan,Jelebu,2024-01-01,overall,55-59,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,overall,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,overall,other_noncitizen,4.1
+Negeri Sembilan,Jelebu,2024-01-01,male,0-4,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,5-9,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,10-14,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,15-19,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,20-24,other_noncitizen,0.4
+Negeri Sembilan,Jelebu,2024-01-01,male,25-29,other_noncitizen,0.9
+Negeri Sembilan,Jelebu,2024-01-01,male,30-34,other_noncitizen,0.8
+Negeri Sembilan,Jelebu,2024-01-01,male,35-39,other_noncitizen,0.8
+Negeri Sembilan,Jelebu,2024-01-01,male,40-44,other_noncitizen,0.5
+Negeri Sembilan,Jelebu,2024-01-01,male,45-49,other_noncitizen,0.3
+Negeri Sembilan,Jelebu,2024-01-01,male,50-54,other_noncitizen,0.2
+Negeri Sembilan,Jelebu,2024-01-01,male,55-59,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,male,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,overall,other_noncitizen,0.8
+Negeri Sembilan,Jelebu,2024-01-01,female,0-4,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,5-9,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,10-14,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,20-24,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,25-29,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,30-34,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,35-39,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,40-44,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,45-49,other_noncitizen,0.1
+Negeri Sembilan,Jelebu,2024-01-01,female,50-54,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,55-59,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jelebu,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,overall,other_noncitizen,3.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,0-4,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,5-9,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,10-14,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,15-19,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,20-24,other_noncitizen,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,25-29,other_noncitizen,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,30-34,other_noncitizen,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,35-39,other_noncitizen,0.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,40-44,other_noncitizen,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,45-49,other_noncitizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,50-54,other_noncitizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,55-59,other_noncitizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,60-64,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,65-69,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,70-74,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,75-79,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,80-84,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,overall,other_noncitizen,2.8
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,0-4,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,5-9,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,10-14,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,15-19,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,20-24,other_noncitizen,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,25-29,other_noncitizen,0.7
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,30-34,other_noncitizen,0.9
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,35-39,other_noncitizen,0.6
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,40-44,other_noncitizen,0.2
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,45-49,other_noncitizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,50-54,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,55-59,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,60-64,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,65-69,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,70-74,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,75-79,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,overall,other_noncitizen,0.3
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,0-4,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,5-9,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,10-14,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,20-24,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,25-29,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,30-34,other_noncitizen,0.1
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,35-39,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,40-44,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,45-49,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,50-54,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,55-59,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,60-64,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,65-69,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,75-79,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Kuala Pilah,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,overall,other_noncitizen,9.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,0-4,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,5-9,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,overall,10-14,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,15-19,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,20-24,other_noncitizen,0.9
+Negeri Sembilan,Port Dickson,2024-01-01,overall,25-29,other_noncitizen,1.7
+Negeri Sembilan,Port Dickson,2024-01-01,overall,30-34,other_noncitizen,1.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,35-39,other_noncitizen,1.0
+Negeri Sembilan,Port Dickson,2024-01-01,overall,40-44,other_noncitizen,0.8
+Negeri Sembilan,Port Dickson,2024-01-01,overall,45-49,other_noncitizen,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,overall,50-54,other_noncitizen,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,overall,55-59,other_noncitizen,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,overall,60-64,other_noncitizen,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,65-69,other_noncitizen,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,overall,70-74,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,75-79,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,80-84,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,overall,other_noncitizen,5.9
+Negeri Sembilan,Port Dickson,2024-01-01,male,0-4,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,5-9,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,10-14,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,15-19,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,20-24,other_noncitizen,0.5
+Negeri Sembilan,Port Dickson,2024-01-01,male,25-29,other_noncitizen,1.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,30-34,other_noncitizen,1.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,35-39,other_noncitizen,0.7
+Negeri Sembilan,Port Dickson,2024-01-01,male,40-44,other_noncitizen,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,male,45-49,other_noncitizen,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,50-54,other_noncitizen,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,male,55-59,other_noncitizen,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,male,60-64,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,65-69,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,male,70-74,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,75-79,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,overall,other_noncitizen,3.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,0-4,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,5-9,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,10-14,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,20-24,other_noncitizen,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,25-29,other_noncitizen,0.6
+Negeri Sembilan,Port Dickson,2024-01-01,female,30-34,other_noncitizen,0.4
+Negeri Sembilan,Port Dickson,2024-01-01,female,35-39,other_noncitizen,0.3
+Negeri Sembilan,Port Dickson,2024-01-01,female,40-44,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,45-49,other_noncitizen,0.2
+Negeri Sembilan,Port Dickson,2024-01-01,female,50-54,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,55-59,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,60-64,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,65-69,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,75-79,other_noncitizen,0.1
+Negeri Sembilan,Port Dickson,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Port Dickson,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,overall,other_noncitizen,2.5
+Negeri Sembilan,Rembau,2024-01-01,overall,0-4,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,5-9,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,10-14,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,15-19,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,20-24,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,25-29,other_noncitizen,0.7
+Negeri Sembilan,Rembau,2024-01-01,overall,30-34,other_noncitizen,0.8
+Negeri Sembilan,Rembau,2024-01-01,overall,35-39,other_noncitizen,0.2
+Negeri Sembilan,Rembau,2024-01-01,overall,40-44,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,45-49,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,50-54,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,55-59,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,60-64,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,overall,65-69,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,70-74,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,75-79,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,80-84,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,overall,other_noncitizen,2.2
+Negeri Sembilan,Rembau,2024-01-01,male,0-4,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,5-9,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,10-14,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,15-19,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,20-24,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,25-29,other_noncitizen,0.7
+Negeri Sembilan,Rembau,2024-01-01,male,30-34,other_noncitizen,0.8
+Negeri Sembilan,Rembau,2024-01-01,male,35-39,other_noncitizen,0.2
+Negeri Sembilan,Rembau,2024-01-01,male,40-44,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,45-49,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,50-54,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,male,55-59,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,60-64,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,65-69,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,70-74,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,75-79,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,overall,other_noncitizen,0.3
+Negeri Sembilan,Rembau,2024-01-01,female,0-4,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,5-9,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,10-14,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,20-24,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,25-29,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,30-34,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,35-39,other_noncitizen,0.1
+Negeri Sembilan,Rembau,2024-01-01,female,40-44,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,45-49,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,50-54,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,55-59,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,60-64,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,65-69,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,75-79,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Rembau,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,overall,overall,other_noncitizen,43.0
+Negeri Sembilan,Seremban,2024-01-01,overall,0-4,other_noncitizen,0.5
+Negeri Sembilan,Seremban,2024-01-01,overall,5-9,other_noncitizen,0.9
+Negeri Sembilan,Seremban,2024-01-01,overall,10-14,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,overall,15-19,other_noncitizen,0.5
+Negeri Sembilan,Seremban,2024-01-01,overall,20-24,other_noncitizen,9.6
+Negeri Sembilan,Seremban,2024-01-01,overall,25-29,other_noncitizen,9.7
+Negeri Sembilan,Seremban,2024-01-01,overall,30-34,other_noncitizen,9.2
+Negeri Sembilan,Seremban,2024-01-01,overall,35-39,other_noncitizen,6.1
+Negeri Sembilan,Seremban,2024-01-01,overall,40-44,other_noncitizen,2.6
+Negeri Sembilan,Seremban,2024-01-01,overall,45-49,other_noncitizen,1.3
+Negeri Sembilan,Seremban,2024-01-01,overall,50-54,other_noncitizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,55-59,other_noncitizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,overall,60-64,other_noncitizen,0.6
+Negeri Sembilan,Seremban,2024-01-01,overall,65-69,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,overall,70-74,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,75-79,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,overall,80-84,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,overall,85+,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,overall,other_noncitizen,29.3
+Negeri Sembilan,Seremban,2024-01-01,male,0-4,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,5-9,other_noncitizen,0.6
+Negeri Sembilan,Seremban,2024-01-01,male,10-14,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,15-19,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,male,20-24,other_noncitizen,5.9
+Negeri Sembilan,Seremban,2024-01-01,male,25-29,other_noncitizen,6.2
+Negeri Sembilan,Seremban,2024-01-01,male,30-34,other_noncitizen,7.2
+Negeri Sembilan,Seremban,2024-01-01,male,35-39,other_noncitizen,4.9
+Negeri Sembilan,Seremban,2024-01-01,male,40-44,other_noncitizen,1.9
+Negeri Sembilan,Seremban,2024-01-01,male,45-49,other_noncitizen,0.9
+Negeri Sembilan,Seremban,2024-01-01,male,50-54,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,55-59,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,60-64,other_noncitizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,male,65-69,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,male,70-74,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,75-79,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,80-84,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,overall,other_noncitizen,13.7
+Negeri Sembilan,Seremban,2024-01-01,female,0-4,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,5-9,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,10-14,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,15-19,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,20-24,other_noncitizen,3.8
+Negeri Sembilan,Seremban,2024-01-01,female,25-29,other_noncitizen,3.5
+Negeri Sembilan,Seremban,2024-01-01,female,30-34,other_noncitizen,2.0
+Negeri Sembilan,Seremban,2024-01-01,female,35-39,other_noncitizen,1.2
+Negeri Sembilan,Seremban,2024-01-01,female,40-44,other_noncitizen,0.7
+Negeri Sembilan,Seremban,2024-01-01,female,45-49,other_noncitizen,0.4
+Negeri Sembilan,Seremban,2024-01-01,female,50-54,other_noncitizen,0.3
+Negeri Sembilan,Seremban,2024-01-01,female,55-59,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,60-64,other_noncitizen,0.2
+Negeri Sembilan,Seremban,2024-01-01,female,65-69,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,70-74,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,75-79,other_noncitizen,0.1
+Negeri Sembilan,Seremban,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Seremban,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,overall,other_noncitizen,5.6
+Negeri Sembilan,Tampin,2024-01-01,overall,0-4,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,5-9,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,10-14,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,15-19,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,20-24,other_noncitizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,overall,25-29,other_noncitizen,0.3
+Negeri Sembilan,Tampin,2024-01-01,overall,30-34,other_noncitizen,1.4
+Negeri Sembilan,Tampin,2024-01-01,overall,35-39,other_noncitizen,2.5
+Negeri Sembilan,Tampin,2024-01-01,overall,40-44,other_noncitizen,0.8
+Negeri Sembilan,Tampin,2024-01-01,overall,45-49,other_noncitizen,0.2
+Negeri Sembilan,Tampin,2024-01-01,overall,50-54,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,55-59,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,60-64,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,65-69,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,70-74,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,75-79,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,80-84,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,overall,other_noncitizen,5.0
+Negeri Sembilan,Tampin,2024-01-01,male,0-4,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,5-9,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,10-14,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,15-19,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,20-24,other_noncitizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,male,25-29,other_noncitizen,0.3
+Negeri Sembilan,Tampin,2024-01-01,male,30-34,other_noncitizen,1.3
+Negeri Sembilan,Tampin,2024-01-01,male,35-39,other_noncitizen,2.3
+Negeri Sembilan,Tampin,2024-01-01,male,40-44,other_noncitizen,0.7
+Negeri Sembilan,Tampin,2024-01-01,male,45-49,other_noncitizen,0.2
+Negeri Sembilan,Tampin,2024-01-01,male,50-54,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,55-59,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,60-64,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,65-69,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,70-74,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,75-79,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,overall,other_noncitizen,0.6
+Negeri Sembilan,Tampin,2024-01-01,female,0-4,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,5-9,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,10-14,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,20-24,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,25-29,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,30-34,other_noncitizen,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,35-39,other_noncitizen,0.2
+Negeri Sembilan,Tampin,2024-01-01,female,40-44,other_noncitizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,45-49,other_noncitizen,0.1
+Negeri Sembilan,Tampin,2024-01-01,female,50-54,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,55-59,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,60-64,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,65-69,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,75-79,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Tampin,2024-01-01,female,85+,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,overall,other_noncitizen,6.3
+Negeri Sembilan,Jempol,2024-01-01,overall,0-4,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,5-9,other_noncitizen,0.2
+Negeri Sembilan,Jempol,2024-01-01,overall,10-14,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,15-19,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,20-24,other_noncitizen,0.3
+Negeri Sembilan,Jempol,2024-01-01,overall,25-29,other_noncitizen,0.9
+Negeri Sembilan,Jempol,2024-01-01,overall,30-34,other_noncitizen,2.0
+Negeri Sembilan,Jempol,2024-01-01,overall,35-39,other_noncitizen,1.0
+Negeri Sembilan,Jempol,2024-01-01,overall,40-44,other_noncitizen,0.8
+Negeri Sembilan,Jempol,2024-01-01,overall,45-49,other_noncitizen,0.5
+Negeri Sembilan,Jempol,2024-01-01,overall,50-54,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,55-59,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,overall,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,overall,85+,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,overall,other_noncitizen,5.3
+Negeri Sembilan,Jempol,2024-01-01,male,0-4,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,5-9,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,10-14,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,15-19,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,20-24,other_noncitizen,0.2
+Negeri Sembilan,Jempol,2024-01-01,male,25-29,other_noncitizen,0.8
+Negeri Sembilan,Jempol,2024-01-01,male,30-34,other_noncitizen,1.8
+Negeri Sembilan,Jempol,2024-01-01,male,35-39,other_noncitizen,0.9
+Negeri Sembilan,Jempol,2024-01-01,male,40-44,other_noncitizen,0.7
+Negeri Sembilan,Jempol,2024-01-01,male,45-49,other_noncitizen,0.4
+Negeri Sembilan,Jempol,2024-01-01,male,50-54,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,55-59,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,male,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,male,85+,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,overall,other_noncitizen,1.0
+Negeri Sembilan,Jempol,2024-01-01,female,0-4,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,5-9,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,10-14,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,15-19,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,20-24,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,25-29,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,30-34,other_noncitizen,0.2
+Negeri Sembilan,Jempol,2024-01-01,female,35-39,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,40-44,other_noncitizen,0.1
+Negeri Sembilan,Jempol,2024-01-01,female,45-49,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,50-54,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,55-59,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,60-64,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,65-69,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,70-74,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,75-79,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,80-84,other_noncitizen,0.0
+Negeri Sembilan,Jempol,2024-01-01,female,85+,other_noncitizen,0.0
