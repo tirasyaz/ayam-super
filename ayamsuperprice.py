@@ -1,85 +1,90 @@
 import streamlit as st
 import pandas as pd
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 
-# Streamlit app title
+# Title of the App
 st.title("Negeri Sembilan Population and Price Analysis")
 
-# File paths
-folder_path = '/content/drive/MyDrive/AyamSuper/Filtered'
-population_file = '/content/drive/MyDrive/AyamSuper/Filtered/filtered_population_district.csv'
-price_file = os.path.join(folder_path, 'filtered_pricecatcher_data.csv')
+# File path or dynamic upload
+DEFAULT_FILE_PATH = 'Filtered/filtered_population_district.csv'
+uploaded_file = None
 
-# Load datasets
-st.header("Data Loading")
-st.write("Loading filtered datasets for analysis...")
+# Sidebar for file selection or upload
+st.sidebar.title("File Options")
+use_default = st.sidebar.checkbox("Use default file path", value=True)
 
+if use_default:
+    file_path = DEFAULT_FILE_PATH
+else:
+    uploaded_file = st.sidebar.file_uploader("Upload your filtered_population_district.csv file", type="csv")
+    file_path = None
+
+# Load the file based on user selection
 try:
-    population_data = pd.read_csv(population_file)
-    price_data = pd.read_csv(price_file)
-    st.success("Data loaded successfully!")
-except FileNotFoundError as e:
+    if use_default and os.path.exists(file_path):
+        df = pd.read_csv(file_path)
+        st.success(f"Data loaded from default path: {file_path}")
+    elif uploaded_file is not None:
+        df = pd.read_csv(uploaded_file)
+        st.success("Data loaded from uploaded file.")
+    else:
+        st.warning("Please upload a file or provide a valid file path.")
+        st.stop()
+except Exception as e:
     st.error(f"Error loading data: {e}")
     st.stop()
 
-# Population Analysis
-st.header("Population by District")
-if 'district' in population_data.columns and 'population' in population_data.columns:
-    # Group by district and calculate the total population
-    district_population = (
-        population_data.groupby('district')['population'].sum().reset_index()
-        .sort_values(by='population', ascending=False)
-    )
+# Display the dataset
+st.subheader("Dataset Preview")
+st.dataframe(df.head())
 
-    # Display data table
-    st.subheader("Population Data Table")
-    st.dataframe(district_population)
+# Basic Dataset Summary
+st.subheader("Dataset Summary")
+st.write(df.describe())
 
-    # Plot population data
-    st.subheader("Population Distribution")
-    fig, ax = plt.subplots(figsize=(12, 6))
-    ax.bar(district_population['district'], district_population['population'], color='skyblue')
-    ax.set_xlabel('District')
-    ax.set_ylabel('Population')
-    ax.set_title('Population by District in Negeri Sembilan')
+# Visualization 1: Population by District
+if "district" in df.columns and "population" in df.columns:
+    st.subheader("Population by District")
+    district_population = df.groupby('district')['population'].sum().reset_index()
+    district_population = district_population.sort_values(by='population', ascending=False)
+
+    # Plot
+    plt.figure(figsize=(12, 6))
+    plt.bar(district_population['district'], district_population['population'], color='skyblue')
+    plt.xlabel('District')
+    plt.ylabel('Population')
+    plt.title('Population by District in Negeri Sembilan')
     plt.xticks(rotation=45, ha='right')
-    st.pyplot(fig)
-else:
-    st.warning("Required columns 'district' and 'population' are not present in the population data.")
+    plt.tight_layout()
 
-# Price Analysis
-st.header("Price Analysis")
-if {'district', 'item_code', 'price', 'premise_type'}.issubset(price_data.columns):
-    # Summary Table: Group by district, item_code, and premise_type
-    st.subheader("Summary Table")
-    summary_table = price_data.groupby(['district', 'item_code', 'premise_type']).agg(
-        count=('price', 'count'),
+    st.pyplot(plt)
+else:
+    st.warning("Columns 'district' and 'population' are required for population analysis.")
+
+# Visualization 2: Price Analysis (if price data exists)
+if "price" in df.columns and "district" in df.columns and "item_code" in df.columns:
+    st.subheader("Average Price Analysis by District and Item Code")
+    avg_price_data = df.groupby(['district', 'item_code']).agg(
         avg_price=('price', 'mean')
     ).reset_index()
+
+    # Display summary table
+    summary_table = avg_price_data.pivot(index='district', columns='item_code', values='avg_price')
+    st.write("Summary Table: Average Price by District and Item Code")
     st.dataframe(summary_table)
 
-    # Average price by district and item_code
-    avg_price_data = price_data.groupby(['district', 'item_code']).agg(
-        avg_price=('price', 'mean')
-    ).reset_index()
-
-    # Bar plot for average price
-    st.subheader("Average Price by District and Item Code")
-    fig, ax = plt.subplots(figsize=(12, 6))
-    sns.barplot(
-        data=avg_price_data,
-        x='district',
-        y='avg_price',
-        hue='item_code',
-        palette='viridis',
-        ax=ax
-    )
-    ax.set_title('Average Price by District and Item Code')
-    ax.set_xlabel('District')
-    ax.set_ylabel('Average Price')
+    # Visualization
+    plt.figure(figsize=(12, 6))
+    sns.barplot(data=avg_price_data, x='district', y='avg_price', hue='item_code', palette='viridis')
+    plt.title('Average Price by District and Item Code')
+    plt.xlabel('District')
+    plt.ylabel('Average Price')
     plt.xticks(rotation=45)
-    st.pyplot(fig)
+    plt.legend(title='Item Code', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.tight_layout()
+
+    st.pyplot(plt)
 else:
-    st.warning("Required columns for price analysis are not present in the dataset.")
+    st.warning("Columns 'price', 'district', and 'item_code' are required for price analysis.")
