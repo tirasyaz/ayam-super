@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report, mean_squared_error
 from tensorflow.keras.models import Sequential
@@ -7,12 +8,14 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.utils import to_categorical
 import matplotlib.pyplot as plt
 import seaborn as sns
-import requests
-from io import StringIO
 
 # Load dataset from GitHub
 file_path = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv'
 data = pd.read_csv(file_path)
+
+# Streamlit Title and Description
+st.title('Predictive Analytics with LSTM')
+st.write('This app uses LSTM to predict item prices based on features in the dataset.')
 
 # Preprocessing: Handle missing values and encode categorical data
 data = data.dropna()
@@ -52,6 +55,7 @@ model = Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy' if len(y_train.shape) > 1 else 'binary_crossentropy', metrics=['accuracy'])
 
 # Train the model with 20 epochs
+st.write('Training the model...')
 history = model.fit(X_train, y_train, validation_split=0.2, epochs=20, batch_size=32, verbose=1)
 
 # Predict and evaluate
@@ -70,19 +74,25 @@ recall = recall_score(y_test_class, y_pred_class, average='weighted')
 f1 = f1_score(y_test_class, y_pred_class, average='weighted')
 mse = mean_squared_error(y_test_class, y_pred_class)
 
-# Print metrics
-print(f"Accuracy: {accuracy:.2f}")
-print(f"Precision: {precision:.2f}")
-print(f"Recall: {recall:.2f}")
-print(f"F1-Score: {f1:.2f}")
-print(f"Mean Squared Error (MSE): {mse:.2f}")
+# Display evaluation metrics
+st.subheader('Model Evaluation Metrics')
+st.write(f"**Accuracy:** {accuracy:.2f}")
+st.write(f"**Precision:** {precision:.2f}")
+st.write(f"**Recall:** {recall:.2f}")
+st.write(f"**F1-Score:** {f1:.2f}")
+st.write(f"**Mean Squared Error (MSE):** {mse:.2f}")
 
 # Confusion matrix and classification report
 conf_matrix = confusion_matrix(y_test_class, y_pred_class)
-print("\nConfusion Matrix:")
-print(conf_matrix)
-print("\nClassification Report:")
-print(classification_report(y_test_class, y_pred_class))
+st.subheader('Confusion Matrix')
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Failure', 'Failure'], yticklabels=['No Failure', 'Failure'])
+plt.xlabel('Predicted')
+plt.ylabel('True')
+st.pyplot(fig)
+
+st.subheader('Classification Report')
+st.text(classification_report(y_test_class, y_pred_class))
 
 # Reintegrate 'item_code' for mapping predictions
 X_test_with_item_code = X_test.reshape(X_test.shape[0], -1)  # Reshape for compatibility
@@ -102,17 +112,18 @@ if len(X_test_with_item_code) == len(y_pred_prices):
         'predicted_price': y_pred_prices
     }).reset_index(drop=True)
 else:
-    print("Error: Length mismatch between item_code and predicted prices.")
+    st.error("Error: Length mismatch between item_code and predicted prices.")
 
 # Filter predictions for item codes 1, 2, and 3
 filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
 
 # Display predictions for item codes 1, 2, and 3
-print("Predicted Prices for Item Codes 1, 2, and 3:")
-print(filtered_predictions)
+st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
+st.write(filtered_predictions)
 
 # Visualize the predicted prices
-plt.figure(figsize=(12, 6))
+st.subheader('Predicted Prices Visualization')
+fig, ax = plt.subplots(figsize=(12, 6))
 sns.barplot(
     data=filtered_predictions,
     x='item_code',
@@ -124,18 +135,16 @@ plt.xlabel('Item Code')
 plt.ylabel('Predicted Price')
 plt.xticks([0, 1, 2], ['Item 1', 'Item 2', 'Item 3'])
 plt.tight_layout()
-plt.show()
-
-# Save filtered predictions to a CSV
-output_path = 'predicted_prices_item_codes.csv'
-filtered_predictions.to_csv(output_path, index=False)
-print(f"Filtered predictions saved to {output_path}")
+st.pyplot(fig)
 
 # Visualize training and validation accuracy
+st.subheader('Training and Validation Accuracy')
+fig, ax = plt.subplots(figsize=(8, 6))
 plt.plot(history.history['accuracy'], label='Training Accuracy')
 plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
 plt.title('Model Accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.legend()
-plt.show()
+st.pyplot(fig)
+
