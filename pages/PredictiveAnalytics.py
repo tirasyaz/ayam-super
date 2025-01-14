@@ -10,12 +10,12 @@ import streamlit as st
 st.title("ARIMA Price Forecast Visualization")
 
 # Cache data loading function
-@st.cache_data
+@st.cache
 def load_data():
     return pd.read_csv('https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv')
 
 # Cache the ARIMA model fitting function
-@st.cache_resource
+@st.cache
 def fit_arima_model(price_data, order=(1, 1, 1)):
     model = ARIMA(price_data, order=order)
     model_fit = model.fit()
@@ -52,27 +52,29 @@ for code in item_codes:
     item_data = item_data[['price']].resample('W').mean()
 
     # Extract the price column
-    price_data = item_data['price']
+    price_data = item_data['price'].dropna()
 
-    # Check for stationarity and difference the data if necessary
-    adf_test = adfuller(price_data.dropna())
+    if len(price_data) < 10:
+        st.warning(f"Insufficient data for ARIMA modeling for item_code {code}. Skipping.")
+        continue
+
+    # Check for stationarity
+    adf_test = adfuller(price_data)
     st.write(f"ADF Statistic for item_code {code}: {adf_test[0]}")
     st.write(f"p-value for item_code {code}: {adf_test[1]}")
 
-    # Difference the data if non-stationary
     if adf_test[1] > 0.05:
         price_data_diff = price_data.diff().dropna()
     else:
         price_data_diff = price_data
 
-    # Fit ARIMA model and get forecast
+    # Fit ARIMA model
     model_fit = fit_arima_model(price_data_diff)
     forecast = model_fit.get_forecast(steps=forecast_steps)
     forecast_index = pd.date_range(price_data.index[-1], periods=forecast_steps + 1, freq='W')[1:]
     forecast_mean = forecast.predicted_mean
     forecast_ci = forecast.conf_int()
 
-    # Store results for visualization
     forecast_results.append({
         'item_code': code,
         'observed': price_data,
@@ -85,18 +87,16 @@ for code in item_codes:
     train_size = int(len(price_data) * 0.8)
     train, test = price_data[:train_size], price_data[train_size:]
     model_fit = fit_arima_model(train)
-    forecast_test = model_fit.forecast(steps=len(test))
-
-    test = test.dropna()
-    forecast_test = forecast_test[test.index]  # Align forecast with test index
+    forecast_test = pd.Series(model_fit.forecast(steps=len(test)), index=test.index)
 
     rmse = np.sqrt(mean_squared_error(test, forecast_test))
     overall_rmse.append(rmse)
     st.write(f"Test RMSE for item_code {code}: {rmse}")
 
 # Compute overall RMSE
-average_rmse = np.mean(overall_rmse)
-st.write("Overall RMSE:", average_rmse)
+if overall_rmse:
+    average_rmse = np.mean(overall_rmse)
+    st.write("Overall RMSE:", average_rmse)
 
 # Visualization
 st.subheader("Price Forecast for All Selected Item Codes")
@@ -117,3 +117,4 @@ for result in forecast_results:
     ax.set_ylabel("Price")
     ax.legend()
     st.pyplot(fig)
+    plt.close(fig)
