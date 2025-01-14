@@ -148,3 +148,26 @@ plt.ylabel('Accuracy')
 plt.legend()
 st.pyplot(fig)
 
+# Filter predictions for item codes 1, 2, and 3
+filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
+
+# Display predictions for item codes 1, 2, and 3
+st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
+st.write(filtered_predictions)
+
+# Visualize the predicted prices
+st.subheader('Predicted Prices Visualization')
+fig, ax = plt.subplots(figsize=(12, 6))
+sns.barplot(
+    data=filtered_predictions,
+    x='item_code',
+    y='predicted_price',
+    palette='viridis'
+)
+plt.title('Predicted Prices for Item Codes 1, 2, and 3')
+plt.xlabel('Item Code')
+plt.ylabel('Predicted Price')
+plt.xticks(ticks=[0, 1, 2], labels=['Item 1', 'Item 2', 'Item 3'])
+plt.tight_layout()
+st.pyplot(fig)
+
