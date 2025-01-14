@@ -86,13 +86,5 @@ if {'district', 'item_code', 'price', 'premise_type'}.issubset(price_data.column
                  template="plotly_dark", barmode='group')
     st.plotly_chart(fig)
 
-    # Interactive Price Trend: Scatter plot for price vs. district
-    st.subheader("Price Trend Analysis")
-    fig = px.scatter(filtered_price, x='district', y='price', color='item_code',
-                     title="Price Trend by District",
-                     labels={'district': 'District', 'price': 'Price'},
-                     template="plotly_dark")
-    st.plotly_chart(fig)
-
 else:
     st.warning("Required columns for price analysis are not present in the dataset.")
