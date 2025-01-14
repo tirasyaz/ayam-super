@@ -157,34 +157,109 @@ if len(y_test_class) == len(y_pred_class):
 else:
     st.error("Shape mismatch between y_test_class and y_pred_class")
 
-from matplotlib.dates import DateFormatter
+import streamlit as st
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+import matplotlib.pyplot as plt
 
-# Visualization: Actual vs Predicted Prices
-plt.figure(figsize=(15, 6))
+# Streamlit App
+st.title("Monthly Prices with Predictions (Including Nov-Dec 2024)")
+st.write("This app predicts the monthly prices for different items and visualizes them, including predictions for future months.")
+
+# Load dataset
+data = pd.read_csv("https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv")
+
+# Data preprocessing
+data['date'] = pd.to_datetime(data['date'])
+data['month_year'] = data['date'].dt.to_period('M')
+monthly_prices = data.groupby(['month_year', 'item_code'])['price'].mean().reset_index()
+
+# Prepare data for LSTM
+scaler = MinMaxScaler()
+data['price_scaled'] = scaler.fit_transform(data[['price']])
+
+def create_sequences(data, sequence_length=12):
+    sequences, targets = [], []
+    for i in range(len(data) - sequence_length):
+        sequences.append(data[i:i+sequence_length])
+        targets.append(data[i+sequence_length])
+    return np.array(sequences), np.array(targets)
+
+# Store predicted values and corresponding dates
+all_predictions = []
+
+for item in data['item_code'].unique():
+    item_data = data[data['item_code'] == item]['price_scaled'].values
+    X, y = create_sequences(item_data)
+    
+    # Train-test split
+    split = int(0.8 * len(X))
+    X_train, X_test = X[:split], X[split:]
+    y_train, y_test = y[:split], y[split:]
+    
+    # Reshape for LSTM
+    X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
+    X_test = X_test.reshape((X_test.shape[0], X_test.shape[1], 1))
+    
+    # LSTM model
+    model = Sequential([
+        LSTM(50, activation='relu', return_sequences=True, input_shape=(X_train.shape[1], 1)),
+        LSTM(50, activation='relu'),
+        Dense(1)
+    ])
+    model.compile(optimizer='adam', loss='mse')
+    model.fit(X_train, y_train, epochs=10, batch_size=16, verbose=0)  # Silent training for Streamlit
+    
+    # Predictions
+    predictions = model.predict(X_test)
+    predicted_prices = scaler.inverse_transform(predictions)
+    
+    # Generate future dates (e.g., Nov and Dec 2024)
+    last_date = data['month_year'].max().to_timestamp()
+    future_dates = pd.date_range(start=last_date, periods=3, freq='M')[1:]  # Skip current month
+    future_dates_str = future_dates.to_period('M').astype(str)
+    
+    all_predictions.append((item, predicted_prices, future_dates_str))  # Store future dates with predictions
+
+# Visualization with Streamlit
+st.subheader("Monthly Prices for Each Item with Predictions")
+
+fig, ax = plt.subplots(figsize=(15, 6))
 for item in monthly_prices['item_code'].unique():
     # Plot actual prices
     item_data = monthly_prices[monthly_prices['item_code'] == item]
-    plt.plot(item_data['month_year'].astype(str), item_data['price'], label=f'Actual Prices - Item {item}')
+    ax.plot(item_data['month_year'].astype(str), item_data['price'], label=f'Actual Prices - Item {item}')
     
     # Plot predicted prices
     # Retrieve predictions and future dates for the current item
     predictions, future_dates = next(((pred, dates) for itm, pred, dates in all_predictions if itm == item), (None, None))
     
     if predictions is not None and future_dates is not None:
-        # Ensure future_dates are in datetime format
-        future_dates = pd.to_datetime(future_dates)
-        
-        # Plot predicted prices for future dates
-        plt.plot(future_dates, predictions[-len(future_dates):].flatten(), linestyle='--', label=f'Predicted Prices - Item {item}')
+        ax.plot(future_dates, predictions[-len(future_dates):].flatten(), linestyle='--', label=f'Predicted Prices - Item {item}')
 
-# Formatting the x-axis to show the dates clearly
-plt.gca().xaxis.set_major_formatter(DateFormatter('%b-%Y'))
-
-plt.legend()
-plt.title('Monthly Prices for Each Item with Predictions (Including Nov-Dec 2024)')
-plt.xlabel('Month-Year')
-plt.ylabel('Average Price')
+ax.legend()
+ax.set_title('Monthly Prices for Each Item with Predictions (Including Nov-Dec 2024)')
+ax.set_xlabel('Month-Year')
+ax.set_ylabel('Average Price')
 plt.xticks(rotation=45)
-plt.tight_layout()
-st.pyplot(plt)
 
+# Display plot in Streamlit
+st.pyplot(fig)
+
+# Allow users to download predictions
+st.subheader("Download Predictions")
+for item, predictions, future_dates in all_predictions:
+    predictions_df = pd.DataFrame({
+        'Month-Year': future_dates,
+        'Predicted Price': predictions[-len(future_dates):].flatten()
+    })
+    csv = predictions_df.to_csv(index=False).encode('utf-8')
+    st.download_button(
+        label=f"Download Predictions for Item {item}",
+        data=csv,
+        file_name=f"predictions_item_{item}.csv",
+        mime='text/csv',
+    )
