@@ -1,125 +1,150 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-from statsmodels.tsa.arima.model import ARIMA
-from statsmodels.tsa.stattools import adfuller
-from sklearn.metrics import mean_squared_error
 import numpy as np
+import pandas as pd
 import streamlit as st
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report, mean_squared_error
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.utils import to_categorical
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Streamlit app title
-st.title('Price Forecasting with ARIMA')
+# Load dataset from GitHub
+file_path = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv'
+data = pd.read_csv(file_path)
 
-# Load your dataset
-data_url = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv'
-data = pd.read_csv(data_url)
+# Streamlit Title and Description
+st.title('Predictive Analytics with LSTM')
+st.write('This app uses LSTM to predict item prices based on features in the dataset.')
 
-# Ensure the date column is in datetime format
-data['date'] = pd.to_datetime(data['date'])
+# Preprocessing: Handle missing values and encode categorical data
+data = data.dropna()
+data = pd.get_dummies(data, drop_first=True)
 
-# Initialize variables
-overall_rmse = []
-forecast_results = []
+# Define features (X) and target (y)
+X = data.drop(columns=['price'])  # Drop target column
+y = data['price']  # Target column
 
-# List of item codes to predict
-item_codes = [1, 2, 3]
+# Normalize features (LSTMs require scaled data for efficient training)
+scaler = MinMaxScaler()
+X_scaled = scaler.fit_transform(X)
 
-# Loop through each item_code
-for code in item_codes:
-    st.subheader(f"\nProcessing item_code: {code}")
+# Reshape data for LSTM: (samples, timesteps, features)
+X_lstm = X_scaled.reshape(X_scaled.shape[0], 1, X_scaled.shape[1])
 
-    # Filter data for the current item_code
-    item_data = data[data['item_code'] == code]
+# Split data into training and testing sets
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X_lstm, y, test_size=0.2, random_state=42)
 
-    # Set the date as the index and sort by date
-    item_data = item_data.set_index('date').sort_index()
+# Convert target to categorical if classification is multi-class
+if len(np.unique(y)) > 2:
+    y_train = to_categorical(y_train)
+    y_test = to_categorical(y_test)
 
-    # Aggregate data by weekly average for better clarity
-    item_data = item_data[['price']].resample('W').mean()
+# Build the LSTM model
+model = Sequential([
+    LSTM(20, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])),
+    Dropout(0.2),
+    LSTM(20, return_sequences=False),
+    Dropout(0.2),
+    Dense(25, activation='relu'),
+    Dense(y_train.shape[1] if len(y_train.shape) > 1 else 1, activation='softmax' if len(y_train.shape) > 1 else 'sigmoid')
+])
 
-    # Extract the price column
-    price_data = item_data['price']
+# Compile the model
+model.compile(optimizer='adam', loss='categorical_crossentropy' if len(y_train.shape) > 1 else 'binary_crossentropy', metrics=['accuracy'])
 
-    # Check for stationarity
-    adf_test = adfuller(price_data.dropna())
-    st.write(f'ADF Statistic for item_code {code}:', adf_test[0])
-    st.write(f'p-value for item_code {code}:', adf_test[1])
+# Train the model with 20 epochs
+st.write('Training the model...')
+history = model.fit(X_train, y_train, validation_split=0.2, epochs=20, batch_size=32, verbose=1)
 
-    # Difference the data if non-stationary
-    if adf_test[1] > 0.05:
-        price_data_diff = price_data.diff().dropna()
-    else:
-        price_data_diff = price_data
+# Predict and evaluate
+y_pred = model.predict(X_test)
+if len(y_test.shape) > 1:  # Multi-class case
+    y_pred_class = np.argmax(y_pred, axis=1)
+    y_test_class = np.argmax(y_test, axis=1)
+else:  # Binary classification case
+    y_pred_class = (y_pred > 0.5).astype(int).reshape(-1)
+    y_test_class = y_test
 
-    # Fit ARIMA model
-    model = ARIMA(price_data, order=(1, 1, 1))  # Example ARIMA(1, 1, 1)
-    model_fit = model.fit()
+# Evaluation metrics
+accuracy = accuracy_score(y_test_class, y_pred_class)
+precision = precision_score(y_test_class, y_pred_class, average='weighted')
+recall = recall_score(y_test_class, y_pred_class, average='weighted')
+f1 = f1_score(y_test_class, y_pred_class, average='weighted')
+mse = mean_squared_error(y_test_class, y_pred_class)
 
-    # Forecast future prices
-    forecast_steps = 30  # Predict for the next 30 days
-    forecast = model_fit.get_forecast(steps=forecast_steps)
-    forecast_index = pd.date_range(price_data.index[-1], periods=forecast_steps + 1, freq='W')[1:]
-    forecast_mean = forecast.predicted_mean
-    forecast_ci = forecast.conf_int()
+# Display evaluation metrics
+st.subheader('Model Evaluation Metrics')
+st.write(f"**Accuracy:** {accuracy:.2f}")
+st.write(f"**Precision:** {precision:.2f}")
+st.write(f"**Recall:** {recall:.2f}")
+st.write(f"**F1-Score:** {f1:.2f}")
+st.write(f"**Mean Squared Error (MSE):** {mse:.2f}")
 
-    # Store results for visualization
-    forecast_results.append({
-        'item_code': code,
-        'observed': price_data,
-        'forecast_index': forecast_index,
-        'forecast_mean': forecast_mean,
-        'forecast_ci': forecast_ci,
-    })
-
-    # Evaluate model using RMSE
-    train_size = int(len(price_data) * 0.8)
-    train, test = price_data[:train_size], price_data[train_size:]
-    model = ARIMA(train, order=(1, 1, 1))
-    model_fit = model.fit()
-    forecast_test = model_fit.forecast(steps=len(test))
-
-    test = test.dropna()
-    forecast_test = forecast_test[test.index]  # Align forecast with test index
-
-    rmse = np.sqrt(mean_squared_error(test, forecast_test))
-    overall_rmse.append(rmse)
-    st.write(f'Test RMSE for item_code {code}:', rmse)
-
-# Compute overall RMSE
-average_rmse = np.mean(overall_rmse)
-st.write("\nOverall RMSE:", average_rmse)
-
-# Visualization of all forecasts combined
-st.subheader("Forecast Visualizations")
-
-fig, ax = plt.subplots(figsize=(14, 8))
-
-for result in forecast_results:
-    ax.plot(
-        result['observed'],
-        label=f'Observed (item_code {result["item_code"]})',
-        alpha=0.7,
-    )
-    ax.plot(
-        result['forecast_index'],
-        result['forecast_mean'],
-        label=f'Forecast (item_code {result["item_code"]})',
-        linestyle='--',
-    )
-
-    # Add confidence interval shading
-    ax.fill_between(
-        result['forecast_index'],
-        result['forecast_ci'].iloc[:, 0],
-        result['forecast_ci'].iloc[:, 1],
-        alpha=0.2,
-    )
-
-ax.set_title("Price Forecast for All Item Codes (Weekly Averaged Data)")
-ax.set_xlabel("Date")
-ax.set_ylabel("Price")
-ax.legend()
-ax.grid(True)
-plt.tight_layout()
-
-# Display the plot in Streamlit
+# Confusion matrix and classification report
+conf_matrix = confusion_matrix(y_test_class, y_pred_class)
+st.subheader('Confusion Matrix')
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Failure', 'Failure'], yticklabels=['No Failure', 'Failure'])
+plt.xlabel('Predicted')
+plt.ylabel('True')
 st.pyplot(fig)
+
+st.subheader('Classification Report')
+st.text(classification_report(y_test_class, y_pred_class))
+
+# Reintegrate 'item_code' for mapping predictions
+X_test_with_item_code = X_test.reshape(X_test.shape[0], -1)  # Reshape for compatibility
+X_test_with_item_code = pd.DataFrame(X_test_with_item_code, columns=X.columns)
+X_test_with_item_code['item_code'] = data.loc[X_test_with_item_code.index, 'item_code'].values
+
+# Map predictions back to original scale
+if len(y_test.shape) > 1:  # Multi-class case
+    y_pred_prices = np.argmax(y_pred, axis=1)
+else:
+    y_pred_prices = y_pred.reshape(-1)
+
+# Ensure both arrays have the same length before combining
+if len(X_test_with_item_code) == len(y_pred_prices):
+    predictions = pd.DataFrame({
+        'item_code': X_test_with_item_code['item_code'].values,  # Use .values to ensure correct alignment
+        'predicted_price': y_pred_prices
+    }).reset_index(drop=True)
+else:
+    st.error("Error: Length mismatch between item_code and predicted prices.")
+
+# Filter predictions for item codes 1, 2, and 3
+filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
+
+# Display predictions for item codes 1, 2, and 3
+st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
+st.write(filtered_predictions)
+
+# Visualize the predicted prices
+st.subheader('Predicted Prices Visualization')
+fig, ax = plt.subplots(figsize=(12, 6))
+sns.barplot(
+    data=filtered_predictions,
+    x='item_code',
+    y='predicted_price',
+    palette='viridis'
+)
+plt.title('Predicted Prices for Item Codes 1, 2, and 3')
+plt.xlabel('Item Code')
+plt.ylabel('Predicted Price')
+plt.xticks([0, 1, 2], ['Item 1', 'Item 2', 'Item 3'])
+plt.tight_layout()
+st.pyplot(fig)
+
+# Visualize training and validation accuracy
+st.subheader('Training and Validation Accuracy')
+fig, ax = plt.subplots(figsize=(8, 6))
+plt.plot(history.history['accuracy'], label='Training Accuracy')
+plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+plt.title('Model Accuracy')
+plt.xlabel('Epochs')
+plt.ylabel('Accuracy')
+plt.legend()
+st.pyplot(fig)
+
