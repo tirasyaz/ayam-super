@@ -9,8 +9,20 @@ import streamlit as st
 # Streamlit app title
 st.title("ARIMA Price Forecast Visualization")
 
+# Cache data loading function
+@st.cache_data
+def load_data():
+    return pd.read_csv('https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv')
+
+# Cache the ARIMA model fitting function
+@st.cache_resource
+def fit_arima_model(price_data, order=(1, 1, 1)):
+    model = ARIMA(price_data, order=order)
+    model_fit = model.fit()
+    return model_fit
+
 # Load your dataset
-data = pd.read_csv('https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv')
+data = load_data()
 
 # Ensure the date column is in datetime format
 data['date'] = pd.to_datetime(data['date'])
@@ -42,7 +54,7 @@ for code in item_codes:
     # Extract the price column
     price_data = item_data['price']
 
-    # Check for stationarity
+    # Check for stationarity and difference the data if necessary
     adf_test = adfuller(price_data.dropna())
     st.write(f"ADF Statistic for item_code {code}: {adf_test[0]}")
     st.write(f"p-value for item_code {code}: {adf_test[1]}")
@@ -53,11 +65,8 @@ for code in item_codes:
     else:
         price_data_diff = price_data
 
-    # Fit ARIMA model
-    model = ARIMA(price_data, order=(1, 1, 1))
-    model_fit = model.fit()
-
-    # Forecast future prices
+    # Fit ARIMA model and get forecast
+    model_fit = fit_arima_model(price_data_diff)
     forecast = model_fit.get_forecast(steps=forecast_steps)
     forecast_index = pd.date_range(price_data.index[-1], periods=forecast_steps + 1, freq='W')[1:]
     forecast_mean = forecast.predicted_mean
@@ -75,8 +84,7 @@ for code in item_codes:
     # Evaluate model using RMSE
     train_size = int(len(price_data) * 0.8)
     train, test = price_data[:train_size], price_data[train_size:]
-    model = ARIMA(train, order=(1, 1, 1))
-    model_fit = model.fit()
+    model_fit = fit_arima_model(train)
     forecast_test = model_fit.forecast(steps=len(test))
 
     test = test.dropna()
