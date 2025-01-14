@@ -10,7 +10,7 @@ import streamlit as st
 st.title("ARIMA Price Forecast Visualization")
 
 # Load your dataset
-data = pd.read_csv('/content/filtered_pricecatcher_data.csv')
+data = pd.read_csv('https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv')
 
 # Ensure the date column is in datetime format
 data['date'] = pd.to_datetime(data['date'])
