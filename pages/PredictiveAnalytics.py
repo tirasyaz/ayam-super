@@ -157,21 +157,7 @@ if len(y_test_class) == len(y_pred_class):
 else:
     st.error("Shape mismatch between y_test_class and y_pred_class")
 
-# Visualization for Monthly Prices and Predictions
-# Assuming 'monthly_prices' and 'all_predictions' are available in your context
-# Replace this with actual data if necessary
-monthly_prices = pd.DataFrame({
-    'item_code': np.random.choice([1, 2, 3], size=100),
-    'month_year': pd.date_range('2023-01-01', periods=100, freq='M'),
-    'price': np.random.rand(100) * 50  # Replace with actual price data
-})
-
-# Example: all_predictions is a list of tuples (item_code, predictions, future_dates)
-all_predictions = [
-    (1, np.random.rand(10) * 50, pd.date_range('2024-11-01', periods=10, freq='M')),
-    (2, np.random.rand(10) * 50, pd.date_range('2024-11-01', periods=10, freq='M')),
-    (3, np.random.rand(10) * 50, pd.date_range('2024-11-01', periods=10, freq='M'))
-]
+from matplotlib.dates import DateFormatter
 
 # Visualization: Actual vs Predicted Prices
 plt.figure(figsize=(15, 6))
@@ -185,11 +171,20 @@ for item in monthly_prices['item_code'].unique():
     predictions, future_dates = next(((pred, dates) for itm, pred, dates in all_predictions if itm == item), (None, None))
     
     if predictions is not None and future_dates is not None:
+        # Ensure future_dates are in datetime format
+        future_dates = pd.to_datetime(future_dates)
+        
+        # Plot predicted prices for future dates
         plt.plot(future_dates, predictions[-len(future_dates):].flatten(), linestyle='--', label=f'Predicted Prices - Item {item}')
+
+# Formatting the x-axis to show the dates clearly
+plt.gca().xaxis.set_major_formatter(DateFormatter('%b-%Y'))
 
 plt.legend()
 plt.title('Monthly Prices for Each Item with Predictions (Including Nov-Dec 2024)')
 plt.xlabel('Month-Year')
 plt.ylabel('Average Price')
 plt.xticks(rotation=45)
+plt.tight_layout()
 st.pyplot(plt)
+
