@@ -155,8 +155,35 @@ filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
 st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
 st.write(filtered_predictions)
 
-# Visualize the predicted prices
-st.subheader('Predicted Prices Visualization')
+# Visualize predictions across all item codes
+st.subheader('Predicted Prices Across All Items')
+fig, ax = plt.subplots(figsize=(14, 7))
+sns.lineplot(
+    data=predictions,
+    x='item_code',
+    y='predicted_price',
+    marker='o',
+    linestyle='-',
+    palette='viridis'
+)
+plt.title('Predicted Prices Across All Items')
+plt.xlabel('Item Code')
+plt.ylabel('Predicted Price')
+plt.grid(True)
+plt.tight_layout()
+st.pyplot(fig)
+
+# Interactive filter for item codes
+item_code_filter = st.multiselect(
+    'Select Item Codes for Visualization:',
+    options=predictions['item_code'].unique(),
+    default=[1, 2, 3]
+)
+
+filtered_predictions = predictions[predictions['item_code'].isin(item_code_filter)]
+
+# Visualize filtered predictions
+st.subheader(f'Predicted Prices for Selected Item Codes: {item_code_filter}')
 fig, ax = plt.subplots(figsize=(12, 6))
 sns.barplot(
     data=filtered_predictions,
@@ -164,10 +191,9 @@ sns.barplot(
     y='predicted_price',
     palette='viridis'
 )
-plt.title('Predicted Prices for Item Codes 1, 2, and 3')
+plt.title('Predicted Prices for Selected Item Codes')
 plt.xlabel('Item Code')
 plt.ylabel('Predicted Price')
-plt.xticks(ticks=[0, 1, 2], labels=['Item 1', 'Item 2', 'Item 3'])
 plt.tight_layout()
 st.pyplot(fig)
 
