@@ -88,18 +88,7 @@ if len(y_test_class) == len(y_pred_class):
     st.write(f"**F1-Score:** {f1:.2f}")
     st.write(f"**Mean Squared Error (MSE):** {mse:.2f}")
 
-    # Confusion matrix and classification report
-    conf_matrix = confusion_matrix(y_test_class, y_pred_class)
-    st.subheader('Confusion Matrix')
-    fig, ax = plt.subplots(figsize=(8, 6))
-    sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Failure', 'Failure'], yticklabels=['No Failure', 'Failure'])
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
-    st.pyplot(fig)
-
-    st.subheader('Classification Report')
-    st.text(classification_report(y_test_class, y_pred_class))
-
+    
     # Reintegrate 'item_code' for mapping predictions
     X_test_with_item_code = X_test.reshape(X_test.shape[0], -1)  # Reshape for compatibility
     X_test_with_item_code = pd.DataFrame(X_test_with_item_code, columns=X.columns)
