@@ -9,12 +9,8 @@ import streamlit as st
 # Streamlit app title
 st.title("ARIMA Price Forecast Visualization")
 
-# Upload dataset file
-uploaded_file = st.file_uploader("Upload your dataset (CSV format)", type="csv")
-
-if uploaded_file:
-    # Load the dataset
-    data = pd.read_csv(uploaded_file)
+file_path = 'https://raw.githubusercontent.com/tirasyaz/ayam-super/refs/heads/main/filtered_pricecatcher_data.csv'
+data = pd.read_csv(file_path)
 
     # Ensure the date column is in datetime format
     data['date'] = pd.to_datetime(data['date'])
