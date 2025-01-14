@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report, mean_squared_error
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, mean_squared_error
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.utils import to_categorical
@@ -94,95 +94,38 @@ st.pyplot(fig)
 st.subheader('Classification Report')
 st.text(classification_report(y_test_class, y_pred_class))
 
-# Reintegrate 'item_code' for mapping predictions
-X_test_with_item_code = X_test.reshape(X_test.shape[0], -1)  # Reshape for compatibility
-X_test_with_item_code = pd.DataFrame(X_test_with_item_code, columns=X.columns)
-X_test_with_item_code['item_code'] = data.loc[X_test_with_item_code.index, 'item_code'].values
+# Prepare monthly prices for visualization
+data['date'] = pd.to_datetime(data['date'])
+data['month_year'] = data['date'].dt.to_period('M')
+monthly_prices = data.groupby(['month_year', 'item_code'])['price'].mean().reset_index()
 
-# Map predictions back to original scale
-if len(y_test.shape) > 1:  # Multi-class case
-    y_pred_prices = np.argmax(y_pred, axis=1)
-else:
-    y_pred_prices = y_pred.reshape(-1)
+# Store predicted values and corresponding dates
+all_predictions = []
 
-# Ensure both arrays have the same length before combining
-if len(X_test_with_item_code) == len(y_pred_prices):
-    predictions = pd.DataFrame({
-        'item_code': X_test_with_item_code['item_code'].values,  # Use .values to ensure correct alignment
-        'predicted_price': y_pred_prices
-    }).reset_index(drop=True)
-else:
-    st.error("Error: Length mismatch between item_code and predicted prices.")
+# Predict for each item
+for item in data['item_code'].unique():
+    item_data = data[data['item_code'] == item]['price'].values
+    item_predictions = model.predict(item_data)  # Predict using the LSTM model
+    all_predictions.append((item, item_predictions))
 
-# Filter predictions for item codes 1, 2, and 3
-filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
+# Visualization of actual and predicted prices
+st.subheader('Monthly Prices for Each Item with Predictions')
+fig, ax = plt.subplots(figsize=(15, 6))
+for item in monthly_prices['item_code'].unique():
+    # Plot actual prices
+    item_data = monthly_prices[monthly_prices['item_code'] == item]
+    ax.plot(item_data['month_year'].astype(str), item_data['price'], label=f'Actual Prices - Item {item}')
+    
+    # Plot predicted prices
+    # Retrieve predictions and future dates for the current item
+    predictions, future_dates = next(((pred, dates) for itm, pred, dates in all_predictions if itm == item), (None, None))
+    
+    if predictions is not None and future_dates is not None:
+        ax.plot(future_dates, predictions.flatten(), linestyle='--', label=f'Predicted Prices - Item {item}')
 
-# Display predictions for item codes 1, 2, and 3
-st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
-st.write(filtered_predictions)
-
-# Visualize the predicted prices
-st.subheader('Predicted Prices Visualization')
-fig, ax = plt.subplots(figsize=(12, 6))
-sns.barplot(
-    data=filtered_predictions,
-    x='item_code',
-    y='predicted_price',
-    palette='viridis'
-)
-plt.title('Predicted Prices for Item Codes 1, 2, and 3')
-plt.xlabel('Item Code')
-plt.ylabel('Predicted Price')
-plt.xticks([0, 1, 2], ['Item 1', 'Item 2', 'Item 3'])
-plt.tight_layout()
-st.pyplot(fig)
-
-# Visualize training and validation accuracy
-st.subheader('Training and Validation Accuracy')
-fig, ax = plt.subplots(figsize=(8, 6))
-plt.plot(history.history['accuracy'], label='Training Accuracy')
-plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
-plt.title('Model Accuracy')
-plt.xlabel('Epochs')
-plt.ylabel('Accuracy')
-plt.legend()
-st.pyplot(fig)
-
-# Ensure 'date' column exists and is in datetime format
-if 'date' in data.columns:
-    data['date'] = pd.to_datetime(data['date'])
-else:
-    st.error("The 'date' column is missing from the dataset. Cannot visualize predictions by date.")
-    st.stop()
-
-# Add 'date' to the X_test_with_item_code DataFrame for mapping predictions
-X_test_with_item_code['date'] = data.loc[X_test_with_item_code.index, 'date'].values
-
-# Combine predictions with their corresponding dates
-if len(X_test_with_item_code) == len(y_pred_prices):
-    predictions_with_dates = pd.DataFrame({
-        'date': X_test_with_item_code['date'].values,
-        'item_code': X_test_with_item_code['item_code'].values,
-        'predicted_price': y_pred_prices
-    }).reset_index(drop=True)
-else:
-    st.error("Error: Length mismatch between date/item_code and predicted prices.")
-    st.stop()
-
-# Group and average predicted prices by date (optional, for smoother visualization)
-avg_predicted_prices_by_date = (
-    predictions_with_dates.groupby('date')['predicted_price']
-    .mean()
-    .reset_index()
-)
-
-# Plot predicted prices over time
-st.subheader('Predicted Prices Over Time')
-fig, ax = plt.subplots(figsize=(12, 6))
-sns.lineplot(data=avg_predicted_prices_by_date, x='date', y='predicted_price', marker='o', color='b')
-plt.title('Predicted Prices Over Time')
-plt.xlabel('Date')
-plt.ylabel('Predicted Price')
-plt.xticks(rotation=45)
-plt.tight_layout()
+ax.legend()
+ax.set_title('Monthly Prices for Each Item with Predictions')
+ax.set_xlabel('Month-Year')
+ax.set_ylabel('Average Price')
+ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
 st.pyplot(fig)
