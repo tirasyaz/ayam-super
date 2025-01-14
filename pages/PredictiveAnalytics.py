@@ -16,18 +16,20 @@ data = pd.read_csv(data_url)
 # Ensure the date column is in datetime format
 data['date'] = pd.to_datetime(data['date'])
 
+# Initialize variables
+overall_rmse = []
+forecast_results = []
+
 # List of item codes to predict
 item_codes = [1, 2, 3]
 
-# User selects the item code
-selected_code = st.selectbox("Select item code to forecast:", item_codes)
+# Loop through each item_code
+for code in item_codes:
+    st.subheader(f"\nProcessing item_code: {code}")
 
-# Filter data for the selected item_code
-item_data = data[data['item_code'] == selected_code]
+    # Filter data for the current item_code
+    item_data = data[data['item_code'] == code]
 
-if item_data.empty:
-    st.warning(f"No data found for item_code {selected_code}.")
-else:
     # Set the date as the index and sort by date
     item_data = item_data.set_index('date').sort_index()
 
@@ -37,22 +39,16 @@ else:
     # Extract the price column
     price_data = item_data['price']
 
-    # Display the raw data
-    st.subheader(f"Raw Data for item_code {selected_code}")
-    st.dataframe(item_data)
-
     # Check for stationarity
     adf_test = adfuller(price_data.dropna())
-    st.write(f"ADF Statistic: {adf_test[0]}")
-    st.write(f"p-value: {adf_test[1]}")
+    st.write(f'ADF Statistic for item_code {code}:', adf_test[0])
+    st.write(f'p-value for item_code {code}:', adf_test[1])
 
     # Difference the data if non-stationary
     if adf_test[1] > 0.05:
         price_data_diff = price_data.diff().dropna()
-        st.write("Data was differenced to achieve stationarity.")
     else:
         price_data_diff = price_data
-        st.write("Data is already stationary.")
 
     # Fit ARIMA model
     model = ARIMA(price_data, order=(1, 1, 1))  # Example ARIMA(1, 1, 1)
@@ -65,6 +61,15 @@ else:
     forecast_mean = forecast.predicted_mean
     forecast_ci = forecast.conf_int()
 
+    # Store results for visualization
+    forecast_results.append({
+        'item_code': code,
+        'observed': price_data,
+        'forecast_index': forecast_index,
+        'forecast_mean': forecast_mean,
+        'forecast_ci': forecast_ci,
+    })
+
     # Evaluate model using RMSE
     train_size = int(len(price_data) * 0.8)
     train, test = price_data[:train_size], price_data[train_size:]
@@ -76,34 +81,45 @@ else:
     forecast_test = forecast_test[test.index]  # Align forecast with test index
 
     rmse = np.sqrt(mean_squared_error(test, forecast_test))
-    st.write(f"Test RMSE for item_code {selected_code}: {rmse:.2f}")
+    overall_rmse.append(rmse)
+    st.write(f'Test RMSE for item_code {code}:', rmse)
 
-    # Visualization
-    st.subheader(f"Forecast Visualization for item_code {selected_code}")
+# Compute overall RMSE
+average_rmse = np.mean(overall_rmse)
+st.write("\nOverall RMSE:", average_rmse)
 
-    fig, ax = plt.subplots(figsize=(14, 8))
+# Visualization of all forecasts combined
+st.subheader("Forecast Visualizations")
 
-    ax.plot(price_data, label="Observed Prices", alpha=0.7)
+fig, ax = plt.subplots(figsize=(14, 8))
+
+for result in forecast_results:
     ax.plot(
-        forecast_index,
-        forecast_mean,
-        label="Forecasted Prices",
-        linestyle="--",
-        color="orange",
+        result['observed'],
+        label=f'Observed (item_code {result["item_code"]})',
+        alpha=0.7,
     )
-    ax.fill_between(
-        forecast_index,
-        forecast_ci.iloc[:, 0],
-        forecast_ci.iloc[:, 1],
-        color="orange",
-        alpha=0.2,
-        label="Confidence Interval",
+    ax.plot(
+        result['forecast_index'],
+        result['forecast_mean'],
+        label=f'Forecast (item_code {result["item_code"]})',
+        linestyle='--',
     )
-    ax.set_title("Price Forecast (Weekly Averaged Data)")
-    ax.set_xlabel("Date")
-    ax.set_ylabel("Price")
-    ax.legend()
-    ax.grid(True)
 
-    # Display the plot
-    st.pyplot(fig)
+    # Add confidence interval shading
+    ax.fill_between(
+        result['forecast_index'],
+        result['forecast_ci'].iloc[:, 0],
+        result['forecast_ci'].iloc[:, 1],
+        alpha=0.2,
+    )
+
+ax.set_title("Price Forecast for All Item Codes (Weekly Averaged Data)")
+ax.set_xlabel("Date")
+ax.set_ylabel("Price")
+ax.legend()
+ax.grid(True)
+plt.tight_layout()
+
+# Display the plot in Streamlit
+st.pyplot(fig)
