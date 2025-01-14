@@ -148,52 +148,41 @@ plt.ylabel('Accuracy')
 plt.legend()
 st.pyplot(fig)
 
-# Filter predictions for item codes 1, 2, and 3
-filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
+# Ensure 'date' column exists and is in datetime format
+if 'date' in data.columns:
+    data['date'] = pd.to_datetime(data['date'])
+else:
+    st.error("The 'date' column is missing from the dataset. Cannot visualize predictions by date.")
+    st.stop()
 
-# Display predictions for item codes 1, 2, and 3
-st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
-st.write(filtered_predictions)
+# Add 'date' to the X_test_with_item_code DataFrame for mapping predictions
+X_test_with_item_code['date'] = data.loc[X_test_with_item_code.index, 'date'].values
 
-# Visualize predictions across all item codes
-st.subheader('Predicted Prices Across All Items')
-fig, ax = plt.subplots(figsize=(14, 7))
-sns.lineplot(
-    data=predictions,
-    x='item_code',
-    y='predicted_price',
-    marker='o',
-    linestyle='-',
-    palette='viridis'
-)
-plt.title('Predicted Prices Across All Items')
-plt.xlabel('Item Code')
-plt.ylabel('Predicted Price')
-plt.grid(True)
-plt.tight_layout()
-st.pyplot(fig)
+# Combine predictions with their corresponding dates
+if len(X_test_with_item_code) == len(y_pred_prices):
+    predictions_with_dates = pd.DataFrame({
+        'date': X_test_with_item_code['date'].values,
+        'item_code': X_test_with_item_code['item_code'].values,
+        'predicted_price': y_pred_prices
+    }).reset_index(drop=True)
+else:
+    st.error("Error: Length mismatch between date/item_code and predicted prices.")
+    st.stop()
 
-# Interactive filter for item codes
-item_code_filter = st.multiselect(
-    'Select Item Codes for Visualization:',
-    options=predictions['item_code'].unique(),
-    default=[1, 2, 3]
+# Group and average predicted prices by date (optional, for smoother visualization)
+avg_predicted_prices_by_date = (
+    predictions_with_dates.groupby('date')['predicted_price']
+    .mean()
+    .reset_index()
 )
 
-filtered_predictions = predictions[predictions['item_code'].isin(item_code_filter)]
-
-# Visualize filtered predictions
-st.subheader(f'Predicted Prices for Selected Item Codes: {item_code_filter}')
+# Plot predicted prices over time
+st.subheader('Predicted Prices Over Time')
 fig, ax = plt.subplots(figsize=(12, 6))
-sns.barplot(
-    data=filtered_predictions,
-    x='item_code',
-    y='predicted_price',
-    palette='viridis'
-)
-plt.title('Predicted Prices for Selected Item Codes')
-plt.xlabel('Item Code')
+sns.lineplot(data=avg_predicted_prices_by_date, x='date', y='predicted_price', marker='o', color='b')
+plt.title('Predicted Prices Over Time')
+plt.xlabel('Date')
 plt.ylabel('Predicted Price')
+plt.xticks(rotation=45)
 plt.tight_layout()
 st.pyplot(fig)
-
