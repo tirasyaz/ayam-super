@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, mean_squared_error
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report, mean_squared_error
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.utils import to_categorical
@@ -67,65 +67,92 @@ else:  # Binary classification case
     y_pred_class = (y_pred > 0.5).astype(int).reshape(-1)
     y_test_class = y_test
 
-# Evaluation metrics
-accuracy = accuracy_score(y_test_class, y_pred_class)
-precision = precision_score(y_test_class, y_pred_class, average='weighted')
-recall = recall_score(y_test_class, y_pred_class, average='weighted')
-f1 = f1_score(y_test_class, y_pred_class, average='weighted')
-mse = mean_squared_error(y_test_class, y_pred_class)
+# Check if the shapes of the prediction and true labels match
+st.write(f"y_test_class shape: {y_test_class.shape}")
+st.write(f"y_pred_class shape: {y_pred_class.shape}")
 
-# Display evaluation metrics
-st.subheader('Model Evaluation Metrics')
-st.write(f"**Accuracy:** {accuracy:.2f}")
-st.write(f"**Precision:** {precision:.2f}")
-st.write(f"**Recall:** {recall:.2f}")
-st.write(f"**F1-Score:** {f1:.2f}")
-st.write(f"**Mean Squared Error (MSE):** {mse:.2f}")
+# Ensure the lengths match before proceeding
+if len(y_test_class) == len(y_pred_class):
+    # Evaluation metrics
+    accuracy = accuracy_score(y_test_class, y_pred_class)
+    precision = precision_score(y_test_class, y_pred_class, average='weighted')
+    recall = recall_score(y_test_class, y_pred_class, average='weighted')
+    f1 = f1_score(y_test_class, y_pred_class, average='weighted')
+    mse = mean_squared_error(y_test_class, y_pred_class)
 
-# Confusion matrix and classification report
-conf_matrix = confusion_matrix(y_test_class, y_pred_class)
-st.subheader('Confusion Matrix')
-fig, ax = plt.subplots(figsize=(8, 6))
-sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Failure', 'Failure'], yticklabels=['No Failure', 'Failure'])
-plt.xlabel('Predicted')
-plt.ylabel('True')
-st.pyplot(fig)
+    # Display evaluation metrics
+    st.subheader('Model Evaluation Metrics')
+    st.write(f"**Accuracy:** {accuracy:.2f}")
+    st.write(f"**Precision:** {precision:.2f}")
+    st.write(f"**Recall:** {recall:.2f}")
+    st.write(f"**F1-Score:** {f1:.2f}")
+    st.write(f"**Mean Squared Error (MSE):** {mse:.2f}")
 
-st.subheader('Classification Report')
-st.text(classification_report(y_test_class, y_pred_class))
+    # Confusion matrix and classification report
+    conf_matrix = confusion_matrix(y_test_class, y_pred_class)
+    st.subheader('Confusion Matrix')
+    fig, ax = plt.subplots(figsize=(8, 6))
+    sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=['No Failure', 'Failure'], yticklabels=['No Failure', 'Failure'])
+    plt.xlabel('Predicted')
+    plt.ylabel('True')
+    st.pyplot(fig)
 
-# Prepare monthly prices for visualization
-data['date'] = pd.to_datetime(data['date'])
-data['month_year'] = data['date'].dt.to_period('M')
-monthly_prices = data.groupby(['month_year', 'item_code'])['price'].mean().reset_index()
+    st.subheader('Classification Report')
+    st.text(classification_report(y_test_class, y_pred_class))
 
-# Store predicted values and corresponding dates
-all_predictions = []
+    # Reintegrate 'item_code' for mapping predictions
+    X_test_with_item_code = X_test.reshape(X_test.shape[0], -1)  # Reshape for compatibility
+    X_test_with_item_code = pd.DataFrame(X_test_with_item_code, columns=X.columns)
+    X_test_with_item_code['item_code'] = data.loc[X_test_with_item_code.index, 'item_code'].values
 
-# Predict for each item
-for item in data['item_code'].unique():
-    item_data = data[data['item_code'] == item]['price'].values
-    item_predictions = model.predict(item_data)  # Predict using the LSTM model
-    all_predictions.append((item, item_predictions))
+    # Map predictions back to original scale
+    if len(y_test.shape) > 1:  # Multi-class case
+        y_pred_prices = np.argmax(y_pred, axis=1)
+    else:
+        y_pred_prices = y_pred.reshape(-1)
 
-# Visualization of actual and predicted prices
-st.subheader('Monthly Prices for Each Item with Predictions')
-fig, ax = plt.subplots(figsize=(15, 6))
-for item in monthly_prices['item_code'].unique():
-    # Plot actual prices
-    item_data = monthly_prices[monthly_prices['item_code'] == item]
-    ax.plot(item_data['month_year'].astype(str), item_data['price'], label=f'Actual Prices - Item {item}')
-    
-    # Plot predicted prices
-    # Retrieve predictions and future dates for the current item
-    predictions, future_dates = next(((pred, dates) for itm, pred, dates in all_predictions if itm == item), (None, None))
-    
-    if predictions is not None and future_dates is not None:
-        ax.plot(future_dates, predictions.flatten(), linestyle='--', label=f'Predicted Prices - Item {item}')
+    # Ensure both arrays have the same length before combining
+    if len(X_test_with_item_code) == len(y_pred_prices):
+        predictions = pd.DataFrame({
+            'item_code': X_test_with_item_code['item_code'].values,  # Use .values to ensure correct alignment
+            'predicted_price': y_pred_prices
+        }).reset_index(drop=True)
+    else:
+        st.error("Error: Length mismatch between item_code and predicted prices.")
 
-ax.legend()
-ax.set_title('Monthly Prices for Each Item with Predictions')
-ax.set_xlabel('Month-Year')
-ax.set_ylabel('Average Price')
-ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
-st.pyplot(fig)
+    # Filter predictions for item codes 1, 2, and 3
+    filtered_predictions = predictions[predictions['item_code'].isin([1, 2, 3])]
+
+    # Display predictions for item codes 1, 2, and 3
+    st.subheader('Predicted Prices for Item Codes 1, 2, and 3')
+    st.write(filtered_predictions)
+
+    # Visualize the predicted prices
+    st.subheader('Predicted Prices Visualization')
+    fig, ax = plt.subplots(figsize=(12, 6))
+    sns.barplot(
+        data=filtered_predictions,
+        x='item_code',
+        y='predicted_price',
+        palette='viridis'
+    )
+    plt.title('Predicted Prices for Item Codes 1, 2 and 3')
+    plt.xlabel('Item Code')
+    plt.ylabel('Predicted Price')
+    plt.xticks([0, 1, 2], ['Item 1', 'Item 2', 'Item 3'])
+    plt.tight_layout()
+    st.pyplot(fig)
+
+    # Visualize training and validation accuracy
+    st.subheader('Training and Validation Accuracy')
+    fig, ax = plt.subplots(figsize=(8, 6))
+    plt.plot(history.history['accuracy'], label='Training Accuracy')
+    plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
+    plt.title('Model Accuracy')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy')
+    plt.legend()
+    st.pyplot(fig)
+
+else:
+    st.error("Shape mismatch between y_test_class and y_pred_class")
