@@ -43,9 +43,9 @@ if len(np.unique(y)) > 2:
 
 # Build the LSTM model
 model = Sequential([
-    LSTM(50, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])),
+    LSTM(20, return_sequences=True, input_shape=(X_train.shape[1], X_train.shape[2])),
     Dropout(0.2),
-    LSTM(50, return_sequences=False),
+    LSTM(20, return_sequences=False),
     Dropout(0.2),
     Dense(25, activation='relu'),
     Dense(y_train.shape[1] if len(y_train.shape) > 1 else 1, activation='softmax' if len(y_train.shape) > 1 else 'sigmoid')
