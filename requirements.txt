@@ -1,8 +1,6 @@
-streamlit
 pandas
-numpy
-scikit-learn
-tensorflow
-plotly
-seaborn
 matplotlib
+statsmodels
+scikit-learn
+numpy
+streamlit
