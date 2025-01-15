@@ -1,6 +1,6 @@
 # Analysis on Chicken Price in Negeri Sembilan
 
-This project aims to analyze chicken prices in Negeri Sembilan from October 2023 to October 2024 and make prediction on chicken price using LSTM models and visualize the results in an interactive Streamlit dashboard. 
+This group project aims to analyze chicken prices in Negeri Sembilan from October 2023 to October 2024 and make prediction on chicken price using LSTM models and visualize the results in an interactive Streamlit dashboard. 
 
 ---
 
